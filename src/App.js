@@ -8,6 +8,7 @@ function App() {
     <div>
         <Header/>
         <ImageBar/>
+        <br/>
         <Footer/>
     </div>
   );
