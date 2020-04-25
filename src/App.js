@@ -6,6 +6,7 @@ import ImageBar from "./components/image-bar/ImageBar";
 import About from "./components/about/About";
 import Destinations from "./components/destinations/Destinations";
 import Tours from "./components/tours/Tours";
+import Activities from "./components/activities/Activities";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Destinations/>
         <br/>
         <Tours/>
+        <br/>
+        <Activities/>
         <br/>
         <Footer/>
     </div>

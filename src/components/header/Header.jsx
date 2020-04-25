@@ -12,11 +12,11 @@ function Header() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-item nav-link active" href="#">Home <span className="sr-only">(current)</span></a>
-                        <a className="nav-item nav-link active" href="#">Destinations <span className="sr-only">(current)</span></a>
-                        <a className="nav-item nav-link active" href="#">Tours <span className="sr-only">(current)</span></a>
-                        <a className="nav-item nav-link active" href="#">Activities <span className="sr-only">(current)</span></a>
-                        <a className="nav-item nav-link active" href="#">Contact <span className="sr-only">(current)</span></a>
+                        <a className="nav-item nav-link active" href="#"><b>Home </b><span className="sr-only">(current)</span></a>
+                        <a className="nav-item nav-link active" href="#"><b>Destinations </b><span className="sr-only">(current)</span></a>
+                        <a className="nav-item nav-link active" href="#"><b>Tours </b><span className="sr-only">(current)</span></a>
+                        <a className="nav-item nav-link active" href="#"><b>Activities </b><span className="sr-only">(current)</span></a>
+                        <a className="nav-item nav-link active" href="#"><b>Contact </b><span className="sr-only">(current)</span></a>
                     </div>
                 </div>
             </nav>
