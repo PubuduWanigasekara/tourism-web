@@ -3,7 +3,7 @@ import ImageBar3 from '../../images/ImageBar3.jpg'
 import ImageBar4 from '../../images/ImageBar4.jpg'
 import ImageBar5 from '../../images/ImageBar5.jpg'
 
-function ImageBar() {
+function Home() {
     return(
         <div>
             <div className="container">
@@ -53,4 +53,4 @@ function ImageBar() {
     );
 }
 
-export default ImageBar;
+export default Home;

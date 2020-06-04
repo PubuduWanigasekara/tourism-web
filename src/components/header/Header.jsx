@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
     return(
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light shadow">
                 <a className="navbar-brand" href="/home"><b>Chauffeur Prive Sri Lanka</b></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -16,6 +16,7 @@ function Header() {
                         <a className="nav-item nav-link active" href="#"><b>Destinations </b><span className="sr-only">(current)</span></a>
                         <a className="nav-item nav-link active" href="#"><b>Tours </b><span className="sr-only">(current)</span></a>
                         <a className="nav-item nav-link active" href="#"><b>Activities </b><span className="sr-only">(current)</span></a>
+                        <a className="nav-item nav-link active" href="#"><b>About </b><span className="sr-only">(current)</span></a>
                         <a className="nav-item nav-link active" href="#"><b>Contact </b><span className="sr-only">(current)</span></a>
                     </div>
                 </div>
