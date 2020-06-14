@@ -1,6 +1,7 @@
 .opheader {
   position: absolute;
-  /* top: 8px; */
-  /* left: 68vw; */
-  
+}
+
+.navbar-right {
+  margin-right: 5vw;
 }

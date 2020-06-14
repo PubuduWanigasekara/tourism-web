@@ -22,7 +22,7 @@ function Header() {
         <div
           className="navbar-collapse collapse w-100 order-3 dual-collapse2 opheader"id="navbarNavAltMarkup"
         >
-          <div className="navbar-nav ">
+          <div className="navbar-nav navbar-right">
             <a className="nav-item nav-link active" href="#">
               <b>Home </b>
               <span className="sr-only">(current)</span>
