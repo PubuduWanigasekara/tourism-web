@@ -62,6 +62,7 @@ function Home() {
           </a>
         </div>
 
+        {/* About Us */}
         <div className="card" style={{ width: "100vm" }}>
           <div className="card-body card-horizontal">
             <p className="card-text">
@@ -75,17 +76,35 @@ function Home() {
               vision is to fulfill this dream by providing travel assistance
               which specifically caters every unique needs, value for money and
               choosing destination as you wish. Feel the life, come and travel
-              with us. <br/><br/>
+              with us. <br />
+              <br />
               <a href="#" className="btn btn-primary">
                 Find More About
               </a>
             </p>
-
             <img
               src="https://i.imgur.com/A8eQsll.jpg"
               className="card-img-top"
               alt=""
             />
+          </div>
+
+          {/* Destinations  */}
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">
+                <b>Destinations</b>
+              </h5>
+              <p class="card-text">
+                Travel through the island with one of ths leading travel
+                agencies in Sri Lanka as your trusted tour partner. Make your
+                choices with the diversified greenaries, sunny beaches and
+                more.. The choice is yours.
+              </p>
+              <a href="#" class="btn btn-primary">
+              Find More Destinations
+              </a>
+            </div>
           </div>
         </div>
       </div>
