@@ -8,7 +8,7 @@ function Header() {
         <a className="navbar-brand" href="/home">
           <b>Chauffeur Prive Sri Lanka</b>
         </a>
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -18,7 +18,7 @@ function Header() {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </button> */}
         <div
           className="navbar-collapse collapse w-100 order-3 dual-collapse2 opheader"id="navbarNavAltMarkup"
         >
