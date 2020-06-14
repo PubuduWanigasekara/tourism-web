@@ -1,53 +1,57 @@
 import React from "react";
-import './Header.css';
+import "./Header.css";
 
 function Header() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light shadow fixed-top acccc">
-        <a className="navbar-brand" href="/home">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="/home">
           <b>Chauffeur Prive Sri Lanka</b>
         </a>
-        {/* <button
-          className="navbar-toggler"
+        <button
+          class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
-        </button> */}
-        <div
-          className="navbar-collapse collapse w-100 order-3 dual-collapse2 opheader"id="navbarNavAltMarkup"
-        >
-          <div className="navbar-nav navbar-right">
-            <a className="nav-item nav-link active" href="#">
-              <b>Home </b>
-              <span className="sr-only">(current)</span>
-            </a>
-            <a className="nav-item nav-link active" href="#">
-              <b>Destinations </b>
-              <span className="sr-only">(current)</span>
-            </a>
-            <a className="nav-item nav-link active" href="#">
-              <b>Tours </b>
-              <span className="sr-only">(current)</span>
-            </a>
-            <a className="nav-item nav-link active" href="#">
-              <b>Activities </b>
-              <span className="sr-only">(current)</span>
-            </a>
-            <a className="nav-item nav-link active" href="#">
-              <b>About </b>
-              <span className="sr-only">(current)</span>
-            </a>
-            <a className="nav-item nav-link active" href="#">
-              <b>Contact </b>
-              <span className="sr-only">(current)</span>
-            </a>
-          </div>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto navbar-right">
+            <li class="nav-item active">
+              <a class="nav-link" href="/home">
+                <b>Home </b> <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>Destinations </b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>Tours </b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>Activities </b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>About </b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>Contact </b>
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>

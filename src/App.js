@@ -14,14 +14,6 @@ function App() {
         <Home/>
         <Header/>
         <br/>
-        <About/>
-        <br/>
-        <Destinations/>
-        <br/>
-        <Tours/>
-        <br/>
-        <Activities/>
-        <br/>
         {/* <Footer/> */}
     </div>
   );
