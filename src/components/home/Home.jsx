@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Header from "../header/Header";
+import Footer from "../footer/Footer";
 import ImageBar3 from "../../images/ImageBar3.jpg";
 import ImageBar4 from "../../images/ImageBar4.jpg";
 import ImageBar5 from "../../images/ImageBar5.jpg";
@@ -103,13 +104,14 @@ function Home() {
                 more.. The choice is yours.
               </p>
               <a href="#" class="btn btn-primary">
-              Find More Destinations
+                Find More Destinations
               </a>
             </div>
           </div>
         </div>
       </div>
-      <Header/>
+      <Header />
+      <Footer />
     </div>
   );
 }

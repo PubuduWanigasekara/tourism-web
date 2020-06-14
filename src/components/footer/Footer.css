@@ -1,4 +1,6 @@
-.opfooter{
-    
-    
+.opfooter {
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: auto;
 }
