@@ -61,17 +61,13 @@ function Home() {
             <span className="sr-only">Next</span>
           </a>
         </div>
+
         <div className="card" style={{ width: "100vm" }}>
-          <img
-            className="card-img-top"
-            src="../../images/IMG_20180318_103851.jpg"
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <h5 className="card-title">
-              <b>About Us</b>
-            </h5>
+          <div className="card-body card-horizontal">
             <p className="card-text">
+              <h5 className="card-title">
+                <b>About Us</b>
+              </h5>
               Around the world people started to travel from one country to
               another to spend their leisure time. This excursion spread only
               among the richest in the world. But later on with the expanding
@@ -79,11 +75,17 @@ function Home() {
               vision is to fulfill this dream by providing travel assistance
               which specifically caters every unique needs, value for money and
               choosing destination as you wish. Feel the life, come and travel
-              with us.
+              with us. <br/><br/>
+              <a href="#" className="btn btn-primary">
+                Find More About
+              </a>
             </p>
-            <a href="#" className="btn btn-primary">
-              Find More About
-            </a>
+
+            <img
+              src="https://i.imgur.com/A8eQsll.jpg"
+              className="card-img-top"
+              alt=""
+            />
           </div>
         </div>
       </div>
