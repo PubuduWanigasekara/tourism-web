@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light shadow fixed-top ">
+      <nav className="navbar navbar-expand-lg navbar-light shadow fixed-top acccc">
         <a className="navbar-brand" href="/home">
           <b>Chauffeur Prive Sri Lanka</b>
         </a>
@@ -20,7 +20,7 @@ function Header() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="navbar-collapse collapse w-100 order-3 dual-collapse2"id="navbarNavAltMarkup"
+          className="navbar-collapse collapse w-100 order-3 dual-collapse2 opheader"id="navbarNavAltMarkup"
         >
           <div className="navbar-nav ">
             <a className="nav-item nav-link active" href="#">

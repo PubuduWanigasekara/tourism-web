@@ -1,4 +1,5 @@
 import React from "react";
+import './Home.css';
 import ImageBar3 from '../../images/ImageBar3.jpg'
 import ImageBar4 from '../../images/ImageBar4.jpg'
 import ImageBar5 from '../../images/ImageBar5.jpg'
@@ -6,7 +7,7 @@ import ImageBar5 from '../../images/ImageBar5.jpg'
 function Home() {
     return(
         <div>
-            <div className="container">
+            <div className="ophomescreen">
                 <div id="myCarousel" className="carousel slide" data-ride="carousel">
                     {/* Indicators */}
                     <ol className="carousel-indicators">

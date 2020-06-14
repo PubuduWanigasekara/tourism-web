@@ -11,8 +11,8 @@ import Activities from "./components/activities/Activities";
 function App() {
   return (
     <div>
-        <Header/>
         <Home/>
+        <Header/>
         <br/>
         <About/>
         <br/>
@@ -22,7 +22,7 @@ function App() {
         <br/>
         <Activities/>
         <br/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   );
 }
