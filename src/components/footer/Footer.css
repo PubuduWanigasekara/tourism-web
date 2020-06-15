@@ -1,1 +1,7 @@
-
+.opfooter {
+  /* clear: both; */
+  position: relative;
+  /* height: 200px; */
+  
+  bottom: 0;
+}

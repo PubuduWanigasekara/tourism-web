@@ -109,9 +109,9 @@ function Home() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
       <Header />
-      <Footer />
     </div>
   );
 }
