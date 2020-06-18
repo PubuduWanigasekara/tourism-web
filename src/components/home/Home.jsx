@@ -86,31 +86,46 @@ function Home() {
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h3 className="card-title">
+                  <b>About Us</b>
+                </h3>
                 <p className="card-text">
-                  It's a broader card with text below as a natural lead-in to
-                  extra content. This content is a little longer.
+                  <b>Around the world people started to travel from one country to
+                  another to spend their leisure time. This excursion spread
+                  only among the richest in the world. But later on with the
+                  expanding technology, the doors to travel has been opened to
+                  everyone. Our vision is to fulfill this dream by providing
+                  travel assistance which specifically caters every unique
+                  needs, value for money and choosing destination as you wish.
+                  Feel the life, come and travel with us.</b>
                 </p>
                 <p className="card-text">
-                  <small className="text-muted">Last updated 3 mins ago</small>
+                  <button className="btn btn-primary">Find More About</button>
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/* About Us */}
-        <div className="card mb-3" style={{ maxWidth: "100%", marginTop: "-9px" }}>
+        {/* Destinations */}
+        <div
+          className="card mb-3"
+          style={{ maxWidth: "100%", marginTop: "-9px" }}
+        >
           <div className="row no-gutters">
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h3 className="card-title">
+                  <b>Destinations</b>
+                </h3>
                 <p className="card-text">
-                  It's a broader card with text below as a natural lead-in to
-                  extra content. This content is a little longer.
+                  <b>Travel through the island with one of ths leading travel
+                  agencies in Sri Lanka as your trusted tour partner. Make your
+                  choices with the diversified greenaries, sunny beaches and
+                  more.. The choice is yours.</b>
                 </p>
                 <p className="card-text">
-                  <small className="text-muted">Last updated 3 mins ago</small>
+                  <small className="text-muted"><button className="btn btn-primary">Find More Destinations</button></small>
                 </p>
               </div>
             </div>
