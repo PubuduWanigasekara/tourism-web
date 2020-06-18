@@ -24,11 +24,16 @@ function Footer() {
               </div>
               <div className="col-md-3 col-sm-6"></div>
               <div className="col-md-3">
-                <br/>
+                <br />
+                {/* <br /> */}
                 <h4>Follow Us</h4>
                 <ul className="social-network social-circle">
                   <li>
-                    <a href="#" className="icoFacebook" title="Facebook">
+                    <a
+                      href="www.facebook.com/openmic24x7"
+                      className="icoFacebook"
+                      title="Facebook"
+                    >
                       <i className="fa fa-facebook" />
                     </a>
                   </li>

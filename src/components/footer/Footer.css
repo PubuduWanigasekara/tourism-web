@@ -1,12 +1,11 @@
-
 /*FOOTER*/
 
 footer {
-  background: #16222A;
-  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
-  background: linear-gradient(59deg, #3A6073, #16222A);
+  background: #16222a;
+  background: -webkit-linear-gradient(59deg, #3a6073, #16222a);
+  background: linear-gradient(59deg, #3a6073, #16222a);
   color: white;
-  margin-top:100px;
+  margin-top: 100px;
 }
 
 footer a {
@@ -16,21 +15,20 @@ footer a {
 }
 
 footer a:hover {
-  color: #FA944B;
+  color: #fa944b;
   text-decoration: none;
 }
 
 .copy {
   font-size: 12px;
   padding: 10px;
-  border-top: 1px solid #FFFFFF;
+  border-top: 1px solid #ffffff;
 }
 
 .footer-middle {
   padding-top: 2em;
   color: white;
 }
-
 
 /*SOCİAL İCONS*/
 
@@ -48,11 +46,10 @@ ul.social-network li {
   margin: 0 5px;
 }
 
-
 /* footer social icons */
 
 .social-network a.icoFacebook:hover {
-  background-color: #3B5998;
+  background-color: #3b5998;
 }
 
 .social-network a.icoLinkedin:hover {
@@ -66,7 +63,7 @@ ul.social-network li {
 
 .social-network a.socialIcon:hover,
 .socialHoverClass {
-  color: #44BCDD;
+  color: #44bcdd;
 }
 
 .social-circle li a {
@@ -80,6 +77,7 @@ ul.social-network li {
   width: 30px;
   height: 30px;
   font-size: 15px;
+  color: #000;
 }
 
 .social-circle li i {
@@ -111,5 +109,5 @@ ul.social-network li {
 }
 
 .social-network a {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
