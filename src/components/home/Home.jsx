@@ -98,8 +98,9 @@ function Home() {
             </div>
           </div>
         </div>
+
         {/* About Us */}
-        <div className="card mb-3" style={{ maxWidth: "100%" }}>
+        <div className="card mb-3" style={{ maxWidth: "100%", marginTop: "-9px" }}>
           <div className="row no-gutters">
             <div className="col-md-8">
               <div className="card-body">

@@ -7,6 +7,10 @@
   flex: 1 1 auto;
 }
 
-.opmargin {
-  ;
+.card-title {
+  margin-left: 3%;
+}
+
+.card-text {
+  margin-left: 3%;
 }
