@@ -65,50 +65,75 @@ function Home() {
         </div>
 
         {/* About Us */}
-        <div className="card" style={{ width: "100vm" }}>
-          <div className="card-body card-horizontal">
-            <p className="card-text">
-              <h5 className="card-title">
-                <b>About Us</b>
-              </h5>
-              Around the world people started to travel from one country to
-              another to spend their leisure time. This excursion spread only
-              among the richest in the world. But later on with the expanding
-              technology, the doors to travel has been opened to everyone. Our
-              vision is to fulfill this dream by providing travel assistance
-              which specifically caters every unique needs, value for money and
-              choosing destination as you wish. Feel the life, come and travel
-              with us. <br />
-              <br />
-              <a href="#" className="btn btn-primary">
-                Find More About
-              </a>
-            </p>
-            <img
-              src="https://i.imgur.com/A8eQsll.jpg"
-              className="card-img-top"
-              alt=""
-            />
-          </div>
-
-          {/* Destinations  */}
-          <div class="card text-center">
-            <div class="card-body">
-              <h5 class="card-title">
-                <b>Destinations</b>
-              </h5>
-              <p class="card-text">
-                Travel through the island with one of ths leading travel
-                agencies in Sri Lanka as your trusted tour partner. Make your
-                choices with the diversified greenaries, sunny beaches and
-                more.. The choice is yours.
-              </p>
-              <a href="#" class="btn btn-primary">
-                Find More Destinations
-              </a>
+        <div className="card mb-3" style={{ maxWidth: "100%" }}>
+          <div className="row no-gutters">
+            <div className="col-md-4">
+              <svg
+                className="bd-placeholder-img"
+                width="100%"
+                height={250}
+                xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Image"
+                preserveAspectRatio="xMidYMid slice"
+                role="img"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96" />
+                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                  Image
+                </text>
+              </svg>
+            </div>
+            <div className="col-md-8">
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  It's a broader card with text below as a natural lead-in to
+                  extra content. This content is a little longer.
+                </p>
+                <p className="card-text">
+                  <small className="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
             </div>
           </div>
         </div>
+        {/* About Us */}
+        <div className="card mb-3" style={{ maxWidth: "100%" }}>
+          <div className="row no-gutters">
+            <div className="col-md-8">
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  It's a broader card with text below as a natural lead-in to
+                  extra content. This content is a little longer.
+                </p>
+                <p className="card-text">
+                  <small className="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <svg
+                className="bd-placeholder-img"
+                width="97%"
+                height={250}
+                xmlns="http://www.w3.org/2000/svg"
+                aria-label="Placeholder: Image"
+                preserveAspectRatio="xMidYMid slice"
+                role="img"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96" />
+                <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+                  Image
+                </text>
+              </svg>
+            </div>
+          </div>
+        </div>
+
         <Footer />
       </div>
       <Header />
