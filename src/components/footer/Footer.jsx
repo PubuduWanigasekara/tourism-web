@@ -12,7 +12,7 @@ function Footer() {
         <div className="footer-middle">
           <div style={{ marginTop: " -25px" }}>
             <div className="row">
-              <div className="col-5  col-sm-5" style={{ marginLeft: "10px" }}>
+              <div className="col-5  col-sm-5" style={{ marginLeft: "40px" }}>
                 {/*Column1*/}
                 <div className="footer-pad">
                   <h3>Chauffeur Prive Sri Lanka</h3>
@@ -53,7 +53,9 @@ function Footer() {
             <div className="row">
               <div className="col-md-12 copy">
                 <p className="text-center">
-                  <b>Powered by OPENMIC Digital Media</b>
+                  <h5>
+                    <b>Powered by OPENMIC Digital Media</b>
+                  </h5>
                 </p>
               </div>
             </div>
