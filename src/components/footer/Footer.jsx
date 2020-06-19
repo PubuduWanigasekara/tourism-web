@@ -38,8 +38,8 @@ function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="icoLinkedin" title="Linkedin">
-                      <i className="fa fa-linkedin" />
+                    <a href="#" className="icoInstagram" title="Instagram">
+                      <i className="fa fa-instagram" />
                     </a>
                   </li>
                 </ul>
