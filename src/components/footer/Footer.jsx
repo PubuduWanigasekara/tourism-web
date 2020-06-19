@@ -4,11 +4,15 @@ import "./Footer.css";
 function Footer() {
   return (
     <div>
-      <footer className="mainfooter" role="contentinfo">
+      <footer
+        className="mainfooter"
+        role="contentinfo"
+        style={{ marginTop: "-6px" }}
+      >
         <div className="footer-middle">
-          <div>
+          <div style={{ marginTop: " -25px" }}>
             <div className="row">
-              <div className="col-4  col-sm-4" style={{ marginLeft: "10px" }}>
+              <div className="col-5  col-sm-5" style={{ marginLeft: "10px" }}>
                 {/*Column1*/}
                 <div className="footer-pad">
                   <h3>Chauffeur Prive Sri Lanka</h3>
