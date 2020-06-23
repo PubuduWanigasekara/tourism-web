@@ -32,7 +32,13 @@ function Destinations() {
                   className="image"
                 />
                 <div className="overlay">
-                  <div className="text"><h5><b>Galle</b></h5></div>
+                  <div className="text">
+                    <button className="btn ">
+                      <h5>
+                        <b>Galle</b>
+                      </h5>
+                    </button>
+                  </div>
                 </div>
               </div>
 
