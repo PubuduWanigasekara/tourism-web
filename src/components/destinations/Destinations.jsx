@@ -3,6 +3,10 @@ import "./Destinations.css";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import Capture from "../../images/Capture.jpg";
+
+import Colombo from "../../images/destinations/Colombo.jpg";
+import Kandy from "../../images/destinations/Kandy.jpg";
+
 import haputhale from "../../images/newphoto/haputhale.jpg";
 import Anuradhapura from "../../images/newphoto/Anuradhapura-view.jpg";
 import bandarawela_gallery_7 from "../../images/newphoto/bandarawela_gallery_7.jpg";
@@ -27,16 +31,32 @@ function Destinations() {
             <div className="column">
               <div className="containerop">
                 <img
-                  src={Anuradhapura}
+                  src={Colombo}
                   style={{ width: "100%" }}
                   className="image"
                 />
 
                 <div class="bottom-right">
-                  <button className="btn btn-primary btn-sm">
-                    <h5>
-                      <b>Galle</b>
-                    </h5>
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Colombo</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              <div className="containerop">
+                <img
+                  src={Kandy}
+                  style={{ width: "100%" }}
+                  className="image"
+                />
+
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
                   </button>
                 </div>
               </div>
