@@ -25,20 +25,19 @@ function Destinations() {
           {/* Photo Grid */}
           <div className="row">
             <div className="column">
-              <div className="container5">
+              <div className="containerop">
                 <img
                   src={Anuradhapura}
                   style={{ width: "100%" }}
                   className="image"
                 />
-                <div className="overlay">
-                  <div className="text">
-                    <button className="btn ">
-                      <h5>
-                        <b>Galle</b>
-                      </h5>
-                    </button>
-                  </div>
+
+                <div class="bottom-right">
+                  <button className="btn btn-primary btn-sm">
+                    <h5>
+                      <b>Galle</b>
+                    </h5>
+                  </button>
                 </div>
               </div>
 
