@@ -2,16 +2,34 @@ import React from "react";
 import "./Destinations.css";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
-import Capture from "../../images/Capture.jpg";
 
-import Colombo from "../../images/destinations/Colombo.jpg";
-import Kandy from "../../images/destinations/Kandy.jpg";
-
-import haputhale from "../../images/newphoto/haputhale.jpg";
-import Anuradhapura from "../../images/newphoto/Anuradhapura-view.jpg";
-import bandarawela_gallery_7 from "../../images/newphoto/bandarawela_gallery_7.jpg";
-import polonaruwa from "../../images/newphoto/polonaruwa.jpeg";
-import thisamaharamaya from "../../images/newphoto/thisamaharamaya.jpg";
+import Ampara from "../../images/destinations/ampara.jpg";
+// import Anuradhapura from "../../images/destinations/anuradapuraya.jpg";
+// import Bandarawela from "../../images/destinations/bandarawela.jpg";
+// import Batticaloa from "../../images/destinations/batticaloa.jpg";
+// // import Bentota from "../../images/destinations/"
+// // import Beruwala from "../../images/destinations/beruwela.jpg";
+// import Colombo from "../../images/destinations/colombo.jpg";
+// // import Galle from "../../images/destinations";
+// import Galle from "../../images/destinations";
+// import Haputale from "../../images/destinations/haputhale.jpg";
+// import Hikkaduwa from "../../images/destinations/hikaduwa.jpg";
+// import Kandy from "../../images/destinations/kandy.jpg";
+// import Kitulgala from "../../images/destinations/kithulgala.jpg";
+// // import Kurunagala from "../../images/destinations";
+// import MannarIsland from "../../images/destinations/mannarisland.jpg";
+// import Matale from "../../images/destinations/mathale.jpg";
+// import Mihinthale from "../../images/destinations/mihinthale.jpg";
+// import Mirissa from "../../images/destinations/mirissa.jpg";
+// // import Monaragala from "../../images/destinations";
+// import Negambo from "../../images/destinations/nigambo.jpg";
+// import NuwaraEliya from "../../images/destinations/nuwaraeliya.jpg";
+// import Polonnaruwa from "../../images/destinations/polonaruwa.jpg";
+// // import Tangalle from "../../images/destinations";
+// // import TheSacredMountain from "../../images/destinations";
+// // import Tissamaharama from "../../images/destinations";
+// import Trincomalee from "../../images/destinations/thrinkomale.jpg";
+// // import VavuniyaAndJaffnalle from "../../images/destinations";
 
 function Destinations() {
   return (
@@ -31,15 +49,11 @@ function Destinations() {
             <div className="column">
               {/* 1 */}
               <div className="containerop">
-                <img
-                  src={Colombo}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Colombo</b>
+                      <b>Ampara</b>
                     </h6>
                   </button>
                 </div>
@@ -47,11 +61,11 @@ function Destinations() {
 
               {/* 2 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Anuradhapura</b>
                     </h6>
                   </button>
                 </div>
@@ -59,11 +73,11 @@ function Destinations() {
 
               {/* 3 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Bandarawela</b>
                     </h6>
                   </button>
                 </div>
@@ -71,11 +85,11 @@ function Destinations() {
 
               {/* 4 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Batticaloa</b>
                     </h6>
                   </button>
                 </div>
@@ -83,11 +97,11 @@ function Destinations() {
 
               {/* 5 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Tem</b>
                     </h6>
                   </button>
                 </div>
@@ -95,31 +109,21 @@ function Destinations() {
 
               {/* 6 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Tem</b>
                     </h6>
                   </button>
                 </div>
               </div>
-
-              {/* <img src={haputhale} style={{ width: "100%" }} />
-              <img src={Anuradhapura} style={{ width: "100%" }} />
-              <img src={bandarawela_gallery_7} style={{ width: "100%" }} />
-              <img src={polonaruwa} style={{ width: "100%" }} />
-              <img src={thisamaharamaya} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} /> */}
             </div>
+
             <div className="column">
               {/* 1 */}
               <div className="containerop">
-                <img
-                  src={Colombo}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -131,11 +135,11 @@ function Destinations() {
 
               {/* 2 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Galle</b>
                     </h6>
                   </button>
                 </div>
@@ -143,11 +147,11 @@ function Destinations() {
 
               {/* 3 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Haputale</b>
                     </h6>
                   </button>
                 </div>
@@ -155,11 +159,11 @@ function Destinations() {
 
               {/* 4 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Hikkaduwa</b>
                     </h6>
                   </button>
                 </div>
@@ -167,7 +171,7 @@ function Destinations() {
 
               {/* 5 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -179,35 +183,25 @@ function Destinations() {
 
               {/* 6 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Kitulgala</b>
                     </h6>
                   </button>
                 </div>
               </div>
-
-              {/* <img src={bandarawela_gallery_7} style={{ width: "100%" }} />
-              <img src={thisamaharamaya} style={{ width: "100%" }} />
-              <img src={haputhale} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Anuradhapura} style={{ width: "100%" }} />
-              <img src={thisamaharamaya} style={{ width: "100%" }} /> */}
             </div>
+
             <div className="column">
               {/* 1 */}
               <div className="containerop">
-                <img
-                  src={Colombo}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Colombo</b>
+                      <b>Tem</b>
                     </h6>
                   </button>
                 </div>
@@ -215,11 +209,11 @@ function Destinations() {
 
               {/* 2 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Mannar Island</b>
                     </h6>
                   </button>
                 </div>
@@ -227,11 +221,11 @@ function Destinations() {
 
               {/* 3 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Matale</b>
                     </h6>
                   </button>
                 </div>
@@ -239,11 +233,11 @@ function Destinations() {
 
               {/* 4 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Mihinthale</b>
                     </h6>
                   </button>
                 </div>
@@ -251,11 +245,11 @@ function Destinations() {
 
               {/* 5 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Mirissa</b>
                     </h6>
                   </button>
                 </div>
@@ -263,35 +257,25 @@ function Destinations() {
 
               {/* 6 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Tem</b>
                     </h6>
                   </button>
                 </div>
               </div>
-              {/* <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} /> */}
             </div>
+
             <div className="column">
               {/* 1 */}
               <div className="containerop">
-                <img
-                  src={Colombo}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Colombo</b>
+                      <b>Negambo</b>
                     </h6>
                   </button>
                 </div>
@@ -299,11 +283,11 @@ function Destinations() {
 
               {/* 2 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Nuwara Eliya</b>
                     </h6>
                   </button>
                 </div>
@@ -311,11 +295,11 @@ function Destinations() {
 
               {/* 3 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Polonnaruwa</b>
                     </h6>
                   </button>
                 </div>
@@ -323,11 +307,11 @@ function Destinations() {
 
               {/* 4 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Tem</b>
                     </h6>
                   </button>
                 </div>
@@ -335,11 +319,11 @@ function Destinations() {
 
               {/* 5 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Tem</b>
                     </h6>
                   </button>
                 </div>
@@ -347,21 +331,15 @@ function Destinations() {
 
               {/* 6 */}
               <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Kandy</b>
+                      <b>Tem</b>
                     </h6>
                   </button>
                 </div>
               </div>
-              {/* <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} /> */}
             </div>
           </div>
         </div>
