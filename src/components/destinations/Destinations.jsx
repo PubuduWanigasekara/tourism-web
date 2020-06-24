@@ -113,29 +113,255 @@ function Destinations() {
               <img src={Capture} style={{ width: "100%" }} /> */}
             </div>
             <div className="column">
-              <img src={bandarawela_gallery_7} style={{ width: "100%" }} />
+              {/* 1 */}
+              <div className="containerop">
+                <img
+                  src={Colombo}
+                  style={{ width: "100%" }}
+                  className="image"
+                />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Colombo</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 2 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 3 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 4 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 5 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 6 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* <img src={bandarawela_gallery_7} style={{ width: "100%" }} />
               <img src={thisamaharamaya} style={{ width: "100%" }} />
               <img src={haputhale} style={{ width: "100%" }} />
               <img src={Capture} style={{ width: "100%" }} />
               <img src={Anuradhapura} style={{ width: "100%" }} />
-              <img src={thisamaharamaya} style={{ width: "100%" }} />
+              <img src={thisamaharamaya} style={{ width: "100%" }} /> */}
             </div>
             <div className="column">
+              {/* 1 */}
+              <div className="containerop">
+                <img
+                  src={Colombo}
+                  style={{ width: "100%" }}
+                  className="image"
+                />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Colombo</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 2 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 3 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 4 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 5 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 6 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+              {/* <img src={Capture} style={{ width: "100%" }} />
               <img src={Capture} style={{ width: "100%" }} />
               <img src={Capture} style={{ width: "100%" }} />
               <img src={Capture} style={{ width: "100%" }} />
               <img src={Capture} style={{ width: "100%" }} />
               <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
+              <img src={Capture} style={{ width: "100%" }} /> */}
             </div>
             <div className="column">
+              {/* 1 */}
+              <div className="containerop">
+                <img
+                  src={Colombo}
+                  style={{ width: "100%" }}
+                  className="image"
+                />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Colombo</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 2 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 3 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 4 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 5 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 6 */}
+              <div className="containerop">
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Kandy</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+              {/* <img src={Capture} style={{ width: "100%" }} />
               <img src={Capture} style={{ width: "100%" }} />
               <img src={Capture} style={{ width: "100%" }} />
               <img src={Capture} style={{ width: "100%" }} />
               <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
-              <img src={Capture} style={{ width: "100%" }} />
+              <img src={Capture} style={{ width: "100%" }} /> */}
             </div>
           </div>
         </div>
