@@ -4,32 +4,31 @@ import Header from "../header/Header";
 import Footer from "../footer/Footer";
 
 import Ampara from "../../images/destinations/ampara.jpg";
-// import Anuradhapura from "../../images/destinations/anuradapuraya.jpg";
-// import Bandarawela from "../../images/destinations/bandarawela.jpg";
-// import Batticaloa from "../../images/destinations/batticaloa.jpg";
-// // import Bentota from "../../images/destinations/"
-// // import Beruwala from "../../images/destinations/beruwela.jpg";
-// import Colombo from "../../images/destinations/colombo.jpg";
-// // import Galle from "../../images/destinations";
-// import Galle from "../../images/destinations";
-// import Haputale from "../../images/destinations/haputhale.jpg";
-// import Hikkaduwa from "../../images/destinations/hikaduwa.jpg";
-// import Kandy from "../../images/destinations/kandy.jpg";
-// import Kitulgala from "../../images/destinations/kithulgala.jpg";
-// // import Kurunagala from "../../images/destinations";
-// import MannarIsland from "../../images/destinations/mannarisland.jpg";
-// import Matale from "../../images/destinations/mathale.jpg";
-// import Mihinthale from "../../images/destinations/mihinthale.jpg";
-// import Mirissa from "../../images/destinations/mirissa.jpg";
-// // import Monaragala from "../../images/destinations";
-// import Negambo from "../../images/destinations/nigambo.jpg";
-// import NuwaraEliya from "../../images/destinations/nuwaraeliya.jpg";
-// import Polonnaruwa from "../../images/destinations/polonaruwa.jpg";
-// // import Tangalle from "../../images/destinations";
-// // import TheSacredMountain from "../../images/destinations";
-// // import Tissamaharama from "../../images/destinations";
-// import Trincomalee from "../../images/destinations/thrinkomale.jpg";
-// // import VavuniyaAndJaffnalle from "../../images/destinations";
+import Anuradhapura from "../../images/destinations/anuradapuraya.jpg";
+import Bandarawela from "../../images/destinations/bandarawela.jpg";
+import Batticaloa from "../../images/destinations/batticaloa.jpg";
+// import Bentota from "../../images/destinations/"
+import Beruwala from "../../images/destinations/beruwella.jpg";
+import Colombo from "../../images/destinations/colombo.jpg";
+import Galle from "../../images/destinations/gallefort.jpg";
+import Haputale from "../../images/destinations/haputhale.jpg";
+import Hikkaduwa from "../../images/destinations/hikaduwa.jpg";
+import Kandy from "../../images/destinations/kandy.jpg";
+import Kitulgala from "../../images/destinations/kithulgala.jpg";
+// import Kurunagala from "../../images/destinations";
+import MannarIsland from "../../images/destinations/mannarisland.jpg";
+import Matale from "../../images/destinations/mathale.jpg";
+import Mihinthale from "../../images/destinations/mihinthale.jpg";
+import Mirissa from "../../images/destinations/mirissa.jpg";
+import Monaragala from "../../images/destinations/monaragala.jpg";
+import Negambo from "../../images/destinations/nigambo.jpg";
+import NuwaraEliya from "../../images/destinations/nuwaraeliya.jpg";
+import Polonnaruwa from "../../images/destinations/polonaruwa.jpg";
+import Tangalle from "../../images/destinations/thangalla3.jpg";
+import TheSacredMountain from "../../images/destinations/shri padaya.jpg";
+import Tissamaharama from "../../images/destinations/Tissamaharama_Stupa.jpg";
+import Trincomalee from "../../images/destinations/thrinkomale.jpg";
+import VavuniyaAndJaffnalle from "../../images/destinations/vavniya.jpg";
 
 function Destinations() {
   return (
@@ -61,7 +60,7 @@ function Destinations() {
 
               {/* 2 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Anuradhapura} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -73,7 +72,7 @@ function Destinations() {
 
               {/* 3 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Bandarawela} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -85,7 +84,7 @@ function Destinations() {
 
               {/* 4 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Batticaloa} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -97,11 +96,11 @@ function Destinations() {
 
               {/* 5 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Beruwala} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Tem</b>
+                      <b>Beruwala</b>
                     </h6>
                   </button>
                 </div>
@@ -123,7 +122,7 @@ function Destinations() {
             <div className="column">
               {/* 1 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Colombo} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -135,7 +134,7 @@ function Destinations() {
 
               {/* 2 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Galle} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -147,7 +146,7 @@ function Destinations() {
 
               {/* 3 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Haputale} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -159,7 +158,7 @@ function Destinations() {
 
               {/* 4 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Hikkaduwa} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -171,7 +170,7 @@ function Destinations() {
 
               {/* 5 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Kandy} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -183,7 +182,7 @@ function Destinations() {
 
               {/* 6 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Kitulgala} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -209,7 +208,7 @@ function Destinations() {
 
               {/* 2 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={MannarIsland} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -221,7 +220,7 @@ function Destinations() {
 
               {/* 3 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Matale} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -233,7 +232,7 @@ function Destinations() {
 
               {/* 4 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Mihinthale} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -245,7 +244,7 @@ function Destinations() {
 
               {/* 5 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Mirissa} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -257,11 +256,11 @@ function Destinations() {
 
               {/* 6 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Monaragala} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Tem</b>
+                      <b>Monaragala</b>
                     </h6>
                   </button>
                 </div>
@@ -271,7 +270,7 @@ function Destinations() {
             <div className="column">
               {/* 1 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Negambo} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -283,7 +282,7 @@ function Destinations() {
 
               {/* 2 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={NuwaraEliya} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -295,7 +294,7 @@ function Destinations() {
 
               {/* 3 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Polonnaruwa} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
@@ -307,11 +306,11 @@ function Destinations() {
 
               {/* 4 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Tangalle} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Tem</b>
+                      <b>Tangalle</b>
                     </h6>
                   </button>
                 </div>
@@ -319,11 +318,11 @@ function Destinations() {
 
               {/* 5 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={TheSacredMountain} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Tem</b>
+                      <b>The Sacred Mountain</b>
                     </h6>
                   </button>
                 </div>
@@ -331,11 +330,35 @@ function Destinations() {
 
               {/* 6 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Tissamaharama} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Tem</b>
+                      <b>Tissamaharama</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 7 */}
+              <div className="containerop">
+                <img src={Trincomalee} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Trincomalee</b>
+                    </h6>
+                  </button>
+                </div>
+              </div>
+
+              {/* 8 */}
+              <div className="containerop">
+                <img src={VavuniyaAndJaffnalle} style={{ width: "100%" }} className="image" />
+                <div class="bottom-right">
+                  <button className="btn btn-dark btn-sm">
+                    <h6>
+                      <b>Vavuniya And Jaffnalle</b>
                     </h6>
                   </button>
                 </div>
