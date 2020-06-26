@@ -15,7 +15,7 @@ import Haputale from "../../images/destinations/haputhale.jpg";
 import Hikkaduwa from "../../images/destinations/hikaduwa.jpg";
 import Kandy from "../../images/destinations/kandy.jpg";
 import Kitulgala from "../../images/destinations/kithulgala.jpg";
-// import Kurunagala from "../../images/destinations";
+import Kurunagala from "../../images/destinations/kurunagala.jpg";
 import MannarIsland from "../../images/destinations/mannarisland.jpg";
 import Matale from "../../images/destinations/mathale.jpg";
 import Mihinthale from "../../images/destinations/mihinthale.jpg";
@@ -196,11 +196,11 @@ function Destinations() {
             <div className="column">
               {/* 1 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Kurunagala} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Tem</b>
+                      <b>Kurunagala</b>
                     </h6>
                   </button>
                 </div>
