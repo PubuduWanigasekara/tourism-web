@@ -1,19 +1,15 @@
 import React from "react";
 import "./Tours.css";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
 
-import BeachBreak  from "../../images/tours/Beach break .jpg";
-import RoyaleSeylon  from "../../images/tours/Royale seylon.jpg";
-import ShortTrips  from "../../images/tours/Short trips.jpg";
-import DiscoveryTour  from "../../images/tours/Discovery tour.jpg";
-import ExclusiveTour  from "../../images/tours/Exclusive tour.jpg";
-
+import BeachBreak from "../../images/tours/Beach break .jpg";
+import RoyaleSeylon from "../../images/tours/Royale seylon.jpg";
+import ShortTrips from "../../images/tours/Short trips.jpg";
+import DiscoveryTour from "../../images/tours/Discovery tour.jpg";
+import ExclusiveTour from "../../images/tours/Exclusive tour.jpg";
 
 function Tours() {
   return (
-    <div>
-      <Header />
+    <>
       <div className="container-sm ">
         <div>
           {/* Header */}
@@ -26,7 +22,7 @@ function Tours() {
           {/* Photo Grid */}
           <div className="container-xl" style={{ marginTop: "70px" }}>
             {" "}
-            <div className="rowop" style={{marginBottom:"10px"}}>
+            <div className="rowop" style={{ marginBottom: "10px" }}>
               <div className="columnop ">
                 {/* 1 */}
                 <div className="containerop">
@@ -114,8 +110,7 @@ function Tours() {
           </div>
         </div>
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }
 

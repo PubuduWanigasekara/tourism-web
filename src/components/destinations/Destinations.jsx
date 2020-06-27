@@ -1,7 +1,5 @@
 import React from "react";
 import "./Destinations.css";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
 
 import Ampara from "../../images/destinations/ampara.jpg";
 import Anuradhapura from "../../images/destinations/anuradapuraya.jpg";
@@ -31,10 +29,14 @@ import Trincomalee from "../../images/destinations/thrinkomale.jpg";
 import VavuniyaAndJaffnalle from "../../images/destinations/vavniya.jpg";
 
 function Destinations() {
+  const containerStyle = {
+    marginLeft:"20px",
+    marginRight:"20px"
+  };
+
   return (
-    <div>
-      <Header />
-      <div className="container-xl">
+    <>
+      <div className="container-sm" style={containerStyle}>
         <div>
           {/* Header */}
           <div className="header">
@@ -50,7 +52,7 @@ function Destinations() {
               <div className="containerop">
                 <img src={Ampara} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
+                  <button className="btn btn-primary btn-sm"  href="/destinations/ampara">
                     <h6>
                       <b>Ampara</b>
                     </h6>
@@ -367,8 +369,7 @@ function Destinations() {
           </div>
         </div>
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }
 
