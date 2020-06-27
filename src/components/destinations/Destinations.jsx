@@ -31,7 +31,8 @@ import VavuniyaAndJaffnalle from "../../images/destinations/vavniya.jpg";
 function Destinations() {
   const containerStyle = {
     marginLeft:"20px",
-    marginRight:"20px"
+    marginRight:"20px",
+    marginTop: "-50px"
   };
 
   return (

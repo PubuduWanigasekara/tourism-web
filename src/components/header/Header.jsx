@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="/home">
+        <Link class="navbar-brand" to="/home">
           <b>Chauffeur Prive Sri Lanka</b>
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -22,34 +23,34 @@ function Header() {
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto navbar-right">
             <li class="nav-item active">
-              <a class="nav-link" href="/home">
+              <Link class="nav-link" to="/home">
                 <b>Home </b> <span class="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/destinations">
+              <Link class="nav-link" to="/destinations">
                 <b>Destinations </b>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/tours">
+              <Link class="nav-link" to="/tours">
                 <b>Tours </b>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="#">
                 <b>Activities </b>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="#">
                 <b>About </b>
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="#">
                 <b>Contact </b>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
