@@ -3,32 +3,12 @@ import "./Tours.css";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 
-import Ampara from "../../images/destinations/ampara.jpg";
-import Anuradhapura from "../../images/destinations/anuradapuraya.jpg";
-import Bandarawela from "../../images/destinations/bandarawela.jpg";
-import Batticaloa from "../../images/destinations/batticaloa.jpg";
-// import Bentota from "../../images/destinations/"
-import Beruwala from "../../images/destinations/beruwella.jpg";
-import Colombo from "../../images/destinations/colombo.jpg";
-import Galle from "../../images/destinations/gallefort.jpg";
-import Haputale from "../../images/destinations/haputhale.jpg";
-import Hikkaduwa from "../../images/destinations/hikaduwa.jpg";
-import Kandy from "../../images/destinations/kandy.jpg";
-import Kitulgala from "../../images/destinations/kithulgala.jpg";
-import Kurunagala from "../../images/destinations/kurunagala.jpg";
-import MannarIsland from "../../images/destinations/mannarisland.jpg";
-import Matale from "../../images/destinations/mathale.jpg";
-import Mihinthale from "../../images/destinations/mihinthale.jpg";
-import Mirissa from "../../images/destinations/mirissa.jpg";
-import Monaragala from "../../images/destinations/monaragala.jpg";
-import Negambo from "../../images/destinations/nigambo.jpg";
-import NuwaraEliya from "../../images/destinations/nuwaraeliya.jpg";
-import Polonnaruwa from "../../images/destinations/polonaruwa.jpg";
-import Tangalle from "../../images/destinations/thangalla3.jpg";
-import TheSacredMountain from "../../images/destinations/shri padaya.jpg";
-import Tissamaharama from "../../images/destinations/Tissamaharama_Stupa.jpg";
-import Trincomalee from "../../images/destinations/thrinkomale.jpg";
-import VavuniyaAndJaffnalle from "../../images/destinations/vavniya.jpg";
+import BeachBreak  from "../../images/tours/Beach break .jpg";
+import RoyaleSeylon  from "../../images/tours/Royale seylon.jpg";
+import ShortTrips  from "../../images/tours/Short trips.jpg";
+import DiscoveryTour  from "../../images/tours/Discovery tour.jpg";
+import ExclusiveTour  from "../../images/tours/Exclusive tour.jpg";
+
 
 function Tours() {
   return (
@@ -44,21 +24,21 @@ function Tours() {
             <p>Select Your Your!</p>
           </div>
           {/* Photo Grid */}
-          <div className="flex1-container1" style={{ margin: "70px" }}>
+          <div className="container-xl" style={{ marginTop: "70px" }}>
             {" "}
-            <div className="rowop ">
+            <div className="rowop" style={{marginBottom:"10px"}}>
               <div className="columnop ">
                 {/* 1 */}
                 <div className="containerop">
                   <img
-                    src={Ampara}
+                    src={BeachBreak}
                     style={{ width: "100%" }}
                     className="image"
                   />
                   <div class="bottom-right">
                     <button className="btn btn-dark btn-sm">
                       <h6>
-                        <b>Ampara</b>
+                        <b>Beach Break</b>
                       </h6>
                     </button>
                   </div>
@@ -67,14 +47,14 @@ function Tours() {
                 {/* 2 */}
                 <div className="containerop">
                   <img
-                    src={Anuradhapura}
+                    src={ExclusiveTour}
                     style={{ width: "100%" }}
                     className="image"
                   />
                   <div class="bottom-right">
                     <button className="btn btn-dark btn-sm">
                       <h6>
-                        <b>Anuradhapura</b>
+                        <b>Exclusive Tour</b>
                       </h6>
                     </button>
                   </div>
@@ -85,14 +65,14 @@ function Tours() {
                 {/* 1 */}
                 <div className="containerop">
                   <img
-                    src={Colombo}
+                    src={ShortTrips}
                     style={{ width: "100%" }}
                     className="image"
                   />
                   <div class="bottom-right">
                     <button className="btn btn-dark btn-sm">
                       <h6>
-                        <b>Colombo</b>
+                        <b>Short Trips</b>
                       </h6>
                     </button>
                   </div>
@@ -101,14 +81,14 @@ function Tours() {
                 {/* 2 */}
                 <div className="containerop">
                   <img
-                    src={Galle}
+                    src={DiscoveryTour}
                     style={{ width: "100%" }}
                     className="image"
                   />
                   <div class="bottom-right">
                     <button className="btn btn-dark btn-sm">
                       <h6>
-                        <b>Galle</b>
+                        <b>Discovery Tour</b>
                       </h6>
                     </button>
                   </div>
@@ -117,14 +97,14 @@ function Tours() {
                 {/* 3 */}
                 <div className="containerop">
                   <img
-                    src={Haputale}
+                    src={RoyaleSeylon}
                     style={{ width: "100%" }}
                     className="image"
                   />
                   <div class="bottom-right">
                     <button className="btn btn-dark btn-sm">
                       <h6>
-                        <b>Haputale</b>
+                        <b>RoyaleSeylon</b>
                       </h6>
                     </button>
                   </div>

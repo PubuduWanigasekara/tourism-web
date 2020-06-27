@@ -7,7 +7,7 @@ import Ampara from "../../images/destinations/ampara.jpg";
 import Anuradhapura from "../../images/destinations/anuradapuraya.jpg";
 import Bandarawela from "../../images/destinations/bandarawela.jpg";
 import Batticaloa from "../../images/destinations/batticaloa.jpg";
-// import Bentota from "../../images/destinations/"
+import Bentota from "../../images/destinations/benthota.jpg"
 import Beruwala from "../../images/destinations/beruwella.jpg";
 import Colombo from "../../images/destinations/colombo.jpg";
 import Galle from "../../images/destinations/gallefort.jpg";
@@ -41,10 +41,10 @@ function Destinations() {
             <h1>
               <b>Destinations</b>
             </h1>
-            <p>Resize the browser window to see the responsive effect.</p>
+            <p>Click the Destination title button of your choice for More Information.</p>
           </div>
           {/* Photo Grid */}
-          <div className="row">
+          <div className="row" style={{marginBottom:"10px"}}>
             <div className="column">
               {/* 1 */}
               <div className="containerop">
@@ -108,11 +108,11 @@ function Destinations() {
 
               {/* 6 */}
               <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
+                <img src={Bentota} style={{ width: "100%" }} className="image" />
                 <div class="bottom-right">
                   <button className="btn btn-dark btn-sm">
                     <h6>
-                      <b>Tem</b>
+                      <b>Bentota</b>
                     </h6>
                   </button>
                 </div>
