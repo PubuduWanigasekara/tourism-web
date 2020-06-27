@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
   BrowserRouter,
 } from "react-router-dom";
 
@@ -28,7 +27,7 @@ function App() {
             <Route path="/destinations">
               <Destinations />
             </Route>
-            <Route path="/destinations/ampara">
+            <Route path="/destinations-ampara">
               <Ampara />
             </Route>
             <Route path="/tours">
