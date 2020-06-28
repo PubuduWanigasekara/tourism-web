@@ -54,18 +54,22 @@ function Destinations() {
           <div className="row" style={{ marginBottom: "10px" }}>
             <div className="column">
               {/* 1 */}
-              <div className="containerop">
-                <img src={Ampara} style={{ width: "100%" }} className="image" />
-                <div class="bottom-right">
-                  <Link to="/destinations-ampara">
-                    <button className="btn btn-primary btn-sm">
+              <Link to="destinations-ampara">
+                <div className="containerop">
+                  <img
+                    src={Ampara}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
                       <h6>
                         <b>Ampara</b>
                       </h6>
                     </button>
-                  </Link>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 2 */}
               <div className="containerop">
