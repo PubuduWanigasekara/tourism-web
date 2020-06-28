@@ -1,8 +1,7 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Test from "../../../images/tours/tours categories/test.jpg";
-
 
 function ToursCategories() {
   return (
@@ -12,9 +11,9 @@ function ToursCategories() {
           {/* Header */}
           <div className="headerop">
             <h3>
-              <b>Tours</b>
+              <b>Tours Categories</b>
             </h3>
-            <p>Select Your Your!</p>
+            <p>Select Your Choice!</p>
           </div>
           {/* Photo Grid */}
           <div className="container-xl" style={{ marginTop: "70px" }}>
@@ -32,41 +31,40 @@ function ToursCategories() {
                     <div className="top-left">
                       <div className="btn btn-lg btn-dark">
                         <h6>
-                          <b>Beach Break</b>
+                          <b>Short Trips 01</b>
                         </h6>
                       </div>
                     </div>
                     {/* <div className="bottom-right">
-                    
                   </div> */}
                   </div>
                 </Link>
 
                 {/* 2 */}
-                <div className="containerop">
-                  <img
-                    src={Test}
-                    style={{ width: "100%" }}
-                    className="image"
-                  />
-                  <div class="bottom-right">
-                    <button className="btn btn-dark btn-sm">
-                      <h6>
-                        <b>Exclusive Tour</b>
-                      </h6>
-                    </button>
+                <Link to="/home">
+                  <div className="containerop">
+                    <img
+                      src={Test}
+                      style={{ width: "100%" }}
+                      className="image"
+                    />
+                    <div className="top-left">
+                      <div className="btn btn-lg btn-dark">
+                        <h6>
+                          <b>Short Trips 01</b>
+                        </h6>
+                      </div>
+                    </div>
+                    {/* <div className="bottom-right">
+                  </div> */}
                   </div>
-                </div>
+                </Link>
               </div>
 
               <div className="columnop">
                 {/* 1 */}
                 <div className="containerop">
-                  <img
-                    src={Test}
-                    style={{ width: "100%" }}
-                    className="image"
-                  />
+                  <img src={Test} style={{ width: "100%" }} className="image" />
                   <div class="bottom-right">
                     <button className="btn btn-dark btn-sm">
                       <h6>
@@ -78,11 +76,7 @@ function ToursCategories() {
 
                 {/* 2 */}
                 <div className="containerop">
-                  <img
-                    src={Test}
-                    style={{ width: "100%" }}
-                    className="image"
-                  />
+                  <img src={Test} style={{ width: "100%" }} className="image" />
                   <div class="bottom-right">
                     <button className="btn btn-dark btn-sm">
                       <h6>
@@ -94,11 +88,7 @@ function ToursCategories() {
 
                 {/* 3 */}
                 <div className="containerop">
-                  <img
-                    src={Test}
-                    style={{ width: "100%" }}
-                    className="image"
-                  />
+                  <img src={Test} style={{ width: "100%" }} className="image" />
                   <div class="bottom-right">
                     <button className="btn btn-dark btn-sm">
                       <h6>

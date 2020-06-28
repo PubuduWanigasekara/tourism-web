@@ -18,7 +18,7 @@ function Tours() {
             <h3>
               <b>Tours</b>
             </h3>
-            <p>Select Your Your!</p>
+            <p>Select Your Choice!</p>
           </div>
           {/* Photo Grid */}
           <div className="container-xl" style={{ marginTop: "70px" }}>
