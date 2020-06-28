@@ -46,8 +46,8 @@ function Destinations() {
               <b>Destinations</b>
             </h1>
             <p>
-              Click the Destination title button of your choice for More
-              Information.
+              Click the destination for more
+              information.
             </p>
           </div>
           {/* Photo Grid */}
