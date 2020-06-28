@@ -38,17 +38,17 @@ function Header() {
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="#">
+              <Link class="nav-link" to="/activities">
                 <b>Activities </b>
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="#">
+              <Link class="nav-link" to="/about">
                 <b>About </b>
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="#">
+              <Link class="nav-link" to="/contact">
                 <b>Contact </b>
               </Link>
             </li>

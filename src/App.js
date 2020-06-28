@@ -14,8 +14,12 @@ import Home from "./components/home/Home";
 import Tours from "./components/tours/Tours.jsx";
 import Ampara from "./components/destinations/details/Ampara.jsx";
 
+import Activities from "./components/activities/Activities.jsx";
+
 import Destinations from "./components/destinations/Destinations";
+
 import ToursCategories from "./components/tours/details/ToursCategories";
+import ShortTripOne from "./components/tours/details/more-details/ShortTripOne";
 
 function App() {
   return (
@@ -26,6 +30,9 @@ function App() {
           <Switch>
             <Route path="/home">
               <Home />
+            </Route>
+            <Route path="/activities">
+              <Activities />
             </Route>
             <Route path="/destinations">
               <Destinations />
@@ -38,6 +45,9 @@ function App() {
             </Route>
             <Route path="/tours-categories">
               <ToursCategories />
+            </Route>
+            <Route path="/tours-categories-shorttrip-01">
+              <ShortTripOne />
             </Route>
             <Route exact path="/">
               <Home />
