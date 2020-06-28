@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import AmparaI from "../../../images/destinations/details/ampara.jpg";
 
 function Ampara() {
@@ -8,12 +9,15 @@ function Ampara() {
   };
 
   return (
-    <div className="container-md" >
+    <div className="container-md">
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
             <b>Ampara</b>
           </h1>
+          <Link to="/destinations">
+            <button className="btn btn-secondary">Back</button>
+          </Link>
         </h5>
         <img
           className="card-img-top"
