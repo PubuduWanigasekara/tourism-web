@@ -30,8 +30,9 @@ function Ampara() {
             <h3>
               This was a hunter’s resting place during British colonial days
               (Late 1890s and early 1900). During the development of the Galoya
-              scheme from 1949, this was transformed into a town. Top
-              attractions in Ampara
+              scheme from 1949, this was transformed into a town. 
+              {/* <br/><br/>
+              <b>Top attractions in Ampara : </b> */}
             </h3>
 
             <h3 className="card-title">
@@ -92,14 +93,7 @@ function Ampara() {
                 protected monument of the country.
               </h4>
             </h3>
-            <h3 className="card-title">
-              <b>Crocodile Rock </b>
-              <h4>
-                Lies at the river mouth where the Heda Oya falls to sea. Some
-                drip ledge caves, rock cut steps and ruins of ancient stupa can
-                be found on this rock.
-              </h4>
-            </h3>
+
             <h3 className="card-title">
               <b>Lahugala Kitulana National Park </b>
               <h4>

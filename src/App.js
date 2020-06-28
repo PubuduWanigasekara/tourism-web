@@ -10,9 +10,12 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
-import Destinations from "./components/destinations/Destinations";
+
 import Tours from "./components/tours/Tours.jsx";
 import Ampara from "./components/destinations/details/Ampara.jsx";
+
+import Destinations from "./components/destinations/Destinations";
+import ToursCategories from "./components/tours/details/ToursCategories";
 
 function App() {
   return (
@@ -32,6 +35,9 @@ function App() {
             </Route>
             <Route path="/tours">
               <Tours />
+            </Route>
+            <Route path="/tours-categories">
+              <ToursCategories />
             </Route>
             <Route exact path="/">
               <Home />

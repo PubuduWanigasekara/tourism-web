@@ -1,14 +1,10 @@
 import React from "react";
-import "./Tours.css";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
-import BeachBreak from "../../images/tours/Beach break .jpg";
-import RoyaleSeylon from "../../images/tours/Royale seylon.jpg";
-import ShortTrips from "../../images/tours/Short trips.jpg";
-import DiscoveryTour from "../../images/tours/Discovery tour.jpg";
-import ExclusiveTour from "../../images/tours/Exclusive tour.jpg";
+import Test from "../../../images/tours/tours categories/test.jpg";
 
-function Tours() {
+
+function ToursCategories() {
   return (
     <>
       <div className="container-sm ">
@@ -26,10 +22,10 @@ function Tours() {
             <div className="rowop" style={{ marginBottom: "10px" }}>
               <div className="columnop ">
                 {/* 1 */}
-                <Link to="/tours-categories">
+                <Link to="/home">
                   <div className="containerop">
                     <img
-                      src={BeachBreak}
+                      src={Test}
                       style={{ width: "100%" }}
                       className="image"
                     />
@@ -49,7 +45,7 @@ function Tours() {
                 {/* 2 */}
                 <div className="containerop">
                   <img
-                    src={ExclusiveTour}
+                    src={Test}
                     style={{ width: "100%" }}
                     className="image"
                   />
@@ -67,7 +63,7 @@ function Tours() {
                 {/* 1 */}
                 <div className="containerop">
                   <img
-                    src={ShortTrips}
+                    src={Test}
                     style={{ width: "100%" }}
                     className="image"
                   />
@@ -83,7 +79,7 @@ function Tours() {
                 {/* 2 */}
                 <div className="containerop">
                   <img
-                    src={DiscoveryTour}
+                    src={Test}
                     style={{ width: "100%" }}
                     className="image"
                   />
@@ -99,7 +95,7 @@ function Tours() {
                 {/* 3 */}
                 <div className="containerop">
                   <img
-                    src={RoyaleSeylon}
+                    src={Test}
                     style={{ width: "100%" }}
                     className="image"
                   />
@@ -120,4 +116,4 @@ function Tours() {
   );
 }
 
-export default Tours;
+export default ToursCategories;
