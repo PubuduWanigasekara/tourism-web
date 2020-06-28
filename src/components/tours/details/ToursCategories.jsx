@@ -13,7 +13,12 @@ function ToursCategories() {
             <h3>
               <b>Tours Categories</b>
             </h3>
-            <p>Select Your Choice!</p>
+            <p>
+              Select Your Choice! {"  "}
+              <Link to="/tours">
+                <button className="btn btn-sm btn-secondary">Back</button>
+              </Link>
+            </p>
           </div>
           {/* Photo Grid */}
           <div className="container-xl" style={{ marginTop: "70px" }}>
