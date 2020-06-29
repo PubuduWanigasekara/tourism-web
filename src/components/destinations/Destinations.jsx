@@ -45,10 +45,7 @@ function Destinations() {
             <h1>
               <b>Destinations</b>
             </h1>
-            <p>
-              Click the destination for more
-              information.
-            </p>
+            <p>Click the destination for more information.</p>
           </div>
           {/* Photo Grid */}
           <div className="row" style={{ marginBottom: "10px" }}>
@@ -72,398 +69,460 @@ function Destinations() {
               </Link>
 
               {/* 2 */}
-              <div className="containerop">
-                <img
-                  src={Anuradhapura}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Anuradhapura</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-anuradhapura">
+                <div className="containerop">
+                  <img
+                    src={Anuradhapura}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Anuradhapura</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 3 */}
-              <div className="containerop">
-                <img
-                  src={Bandarawela}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Bandarawela</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-bandarawela">
+                <div className="containerop">
+                  <img
+                    src={Bandarawela}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Bandarawela</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 4 */}
-              <div className="containerop">
-                <img
-                  src={Batticaloa}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Batticaloa</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-batticaloa">
+                <div className="containerop">
+                  <img
+                    src={Batticaloa}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Batticaloa</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 5 */}
-              <div className="containerop">
-                <img
-                  src={Beruwala}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Beruwala</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-beruwala">
+                <div className="containerop">
+                  <img
+                    src={Beruwala}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Beruwala</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 6 */}
-              <div className="containerop">
-                <img
-                  src={Bentota}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Bentota</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-bentota">
+                <div className="containerop">
+                  <img
+                    src={Bentota}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Bentota</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
 
             <div className="column">
               {/* 1 */}
-              <div className="containerop">
-                <img
-                  src={Colombo}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Colombo</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-anuradhapura">
+                <div className="containerop">
+                  <img
+                    src={Colombo}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Colombo</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 2 */}
-              <div className="containerop">
-                <img src={Galle} style={{ width: "100%" }} className="image" />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Galle</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-galle">
+                <div className="containerop">
+                  <img
+                    src={Galle}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Galle</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 3 */}
-              <div className="containerop">
-                <img
-                  src={Haputale}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Haputale</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-haputale">
+                <div className="containerop">
+                  <img
+                    src={Haputale}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Haputale</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 4 */}
-              <div className="containerop">
-                <img
-                  src={Hikkaduwa}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Hikkaduwa</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-hikkaduwa">
+                <div className="containerop">
+                  <img
+                    src={Hikkaduwa}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Hikkaduwa</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 5 */}
-              <div className="containerop">
-                <img src={Kandy} style={{ width: "100%" }} className="image" />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Kandy</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-kandy">
+                <div className="containerop">
+                  <img
+                    src={Kandy}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Kandy</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 6 */}
-              <div className="containerop">
-                <img
-                  src={Kitulgala}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Kitulgala</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-kitulgala">
+                <div className="containerop">
+                  <img
+                    src={Kitulgala}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Kitulgala</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
 
             <div className="column">
               {/* 1 */}
-              <div className="containerop">
-                <img
-                  src={Kurunagala}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Kurunagala</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-kurunagala">
+                <div className="containerop">
+                  <img
+                    src={Kurunagala}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Kurunagala</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 2 */}
-              <div className="containerop">
-                <img
-                  src={MannarIsland}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Mannar Island</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-mannarisland">
+                <div className="containerop">
+                  <img
+                    src={MannarIsland}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>MannarIsland</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 3 */}
-              <div className="containerop">
-                <img src={Matale} style={{ width: "100%" }} className="image" />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Matale</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-matale">
+                <div className="containerop">
+                  <img
+                    src={Matale}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Matale</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 4 */}
-              <div className="containerop">
-                <img
-                  src={Mihinthale}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Mihinthale</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-mihinthale">
+                <div className="containerop">
+                  <img
+                    src={Mihinthale}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Mihinthale</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 5 */}
-              <div className="containerop">
-                <img
-                  src={Mirissa}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Mirissa</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-mirissa">
+                <div className="containerop">
+                  <img
+                    src={Mirissa}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Mirissa</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 6 */}
-              <div className="containerop">
-                <img
-                  src={Monaragala}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Monaragala</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-monaragala">
+                <div className="containerop">
+                  <img
+                    src={Monaragala}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Monaragala</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
 
             <div className="column">
               {/* 1 */}
-              <div className="containerop">
-                <img
-                  src={Negambo}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Negambo</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-negambo">
+                <div className="containerop">
+                  <img
+                    src={Negambo}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Negambo</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 2 */}
-              <div className="containerop">
-                <img
-                  src={NuwaraEliya}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Nuwara Eliya</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-nuwaraeliya">
+                <div className="containerop">
+                  <img
+                    src={NuwaraEliya}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Nuwara Eliya</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 3 */}
-              <div className="containerop">
-                <img
-                  src={Polonnaruwa}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Polonnaruwa</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-polonnaruwa">
+                <div className="containerop">
+                  <img
+                    src={Polonnaruwa}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Polonnaruwa</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 4 */}
-              <div className="containerop">
-                <img
-                  src={Tangalle}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Tangalle</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-tangalle">
+                <div className="containerop">
+                  <img
+                    src={Tangalle}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Tangalle</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 5 */}
-              <div className="containerop">
-                <img
-                  src={TheSacredMountain}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>The Sacred Mountain</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-thesacredmountain">
+                <div className="containerop">
+                  <img
+                    src={TheSacredMountain}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>The Sacred Mountain</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 6 */}
-              <div className="containerop">
-                <img
-                  src={Tissamaharama}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Tissamaharama</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-tissamaharama">
+                <div className="containerop">
+                  <img
+                    src={Tissamaharama}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Tissamaharama</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 7 */}
-              <div className="containerop">
-                <img
-                  src={Trincomalee}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Trincomalee</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-trincomalee">
+                <div className="containerop">
+                  <img
+                    src={Trincomalee}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Trincomalee</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
 
               {/* 8 */}
-              <div className="containerop">
-                <img
-                  src={VavuniyaAndJaffnalle}
-                  style={{ width: "100%" }}
-                  className="image"
-                />
-                <div class="bottom-right">
-                  <button className="btn btn-dark btn-sm">
-                    <h6>
-                      <b>Vavuniya And Jaffnalle</b>
-                    </h6>
-                  </button>
+              <Link to="destinations-vavuniyaandjaffna">
+                <div className="containerop">
+                  <img
+                    src={VavuniyaAndJaffnalle}
+                    style={{ width: "100%" }}
+                    className="image"
+                  />
+                  <div class="bottom-right">
+                    <button className="btn btn-dark btn-sm">
+                      <h6>
+                        <b>Vavuniya And Jaffna</b>
+                      </h6>
+                    </button>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
