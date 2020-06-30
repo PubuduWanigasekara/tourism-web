@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import AmparaI from "../../../images/destinations/details/ampara.jpg";
 
-function Ampara() {
+function Haputale() {
   return (
     <div className="container-md">
       <div className="card mb-3">
@@ -106,4 +106,4 @@ function Ampara() {
   );
 }
 
-export default Ampara;
+export default Haputale;

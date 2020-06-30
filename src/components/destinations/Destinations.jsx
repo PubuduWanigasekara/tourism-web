@@ -299,7 +299,7 @@ function Destinations() {
                   <div class="bottom-right">
                     <button className="btn btn-dark btn-sm">
                       <h6>
-                        <b>MannarIsland</b>
+                        <b>Mannar Island</b>
                       </h6>
                     </button>
                   </div>

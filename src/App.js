@@ -13,6 +13,7 @@ import Home from "./components/home/Home";
 
 import Tours from "./components/tours/Tours.jsx";
 import Ampara from "./components/destinations/details/Ampara.jsx";
+import Anuradhapura from "./components/destinations/details/Anuradhapura.jsx";
 
 import Activities from "./components/activities/Activities.jsx";
 
@@ -39,6 +40,9 @@ function App() {
             </Route>
             <Route path="/destinations-ampara">
               <Ampara />
+            </Route>
+            <Route path="/destinations-anuradhapura">
+              <Anuradhapura />
             </Route>
             <Route path="/tours">
               <Tours />
