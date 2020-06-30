@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AmparaI from "../../../images/destinations/details/ampara.jpg";
+import Image from "../../../images/destinations/details/anuradapuraya.jpg";
 
 function Anuradhapura() {
   return (
@@ -8,7 +8,7 @@ function Anuradhapura() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>Ampara</b>
+            <b>Anuradhapura</b>
           </h1>
           <Link to="/destinations">
             <button className="btn btn-secondary">Back</button>
@@ -16,84 +16,136 @@ function Anuradhapura() {
         </h5>
         <img
           className="card-img-top"
-          src={AmparaI}
+          src={Image}
           alt="Card image cap"
           style={{}}
         />
         <div className="card-body">
           <p className="card-text">
             <h3>
-              This was a hunter’s resting place during British colonial days
-              (Late 1890s and early 1900). During the development of the Galoya
-              scheme from 1949, this was transformed into a town.
+              Located in the north-west of the island, Anuradhapura was the
+              capital of Sri Lanka for 1400 Years. It is slightly more than
+              200KM from Colombo and a drive of around 6 hours Anuradhapura
+              gained much greater prominence with the advent of Buddhism on the
+              island, after which many significant buildings and monasteries
+              were constructed.
               {/* <br/><br/>
               <b>Top attractions in Ampara : </b> */}
             </h3>
 
             <h3 className="card-title">
-              <b>Buddhangala Monastery</b>
+              {/* <b>Buddhangala Monastery</b> */}
               <h4>
-                Hidden among a thick jungle full of wild elephants and leopards
-                is the Buddhangala monastery, a Buddhist meditation center,
-                which is nearby 2300 years old. Established in the secondary
-                century BC by a provincial princess named, Chitra.
+                The three greatest Monasteries of Sri Lanka, the Mahavihara, the
+                Abhayagiri temple and Jethawanaramaya are all located in
+                Anuradhapura. Lately visitors will see mainly the ruins of these
+                Monasteries. The city and its important ruins were rediscovered
+                only in the early 19th century with the help of the British.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Jayanthi Wewa (lake) </b>
+              <b>Ruwanvalisaya </b>
               <h4>
-                The reservoir is a source of water to the elephant herds who
-                roam the bordering gal oya national wildlife park. And the
-                flocks of bird like little cormorant, Malayan night heron,
-                lesser whistling – duck and spot billed pelican, who gather at
-                the reservoir in search of food and nesting ground.
+                Simply known as the Greatest Stupa, was constructed by king
+                Dutthagamini after he becomes king in 161 BC. This was his most
+                ambitious project but sadly the king did not live to see the
+                completion of the Stupa. It is believed that relics of the
+                Buddha are enshrined with in the stupa.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Wadinagala </b>
+              <b>Sri Maha Bodhi </b>
               <h4>
-                Stands 2400 feet tall challenging the brave and the reckless. It
-                is famed to be a mountain, one considered as an alternative to
-                bear the foot marks of the Lord Buddha and its heritage in
-                ancient Buddhism is visible in many ruins scattered around the
-                mountain. Beautiful guard stone s, rocks pillars and moonstones
-                lie amidst the towering forest of ebony and stain wood, which is
-                been plundered by treasure hunters and illegal loggers.
+                The sister of Ven. Mahinda came to the island to start the order
+                of bhikkunis (nuns). She brought with her a branch of the sacred
+                bodhi tree from India under which the Buddha meditated and
+                attained enlightment. The tree is believed to be the oldest
+                living planted tree in the world. It’s one of the most sacred
+                and venerated relics in Sri Lanka.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Galoya National Park</b>
+              <b>The Brazen Palace </b>
               <h4>
-                Established in 1954 and serves as the main catchment area for
-                Senanayake Samudra, the largest reservoir in Sri Lanka.
+                The brazen palace or “lohapasada”, was first built by King
+                Devanampiya Tissa in the 3rd century BC. It was later redesigned
+                as a chapter house, or Sima hall, by king Dutthagamini for the
+                Mahavihara. One side of the building was 120 meters long and it
+                had thousand rooms within its nine stories.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Crocodile Rock </b>
+              {/* <b>Crocodile Rock </b> */}
               <h4>
-                Lies at the river mouth where the Heda Oya falls to sea. Some
-                drip ledge caves, rock cut steps and ruins of ancient stupa can
-                be found on this rock.
+                It is called the brazen palace because its roof was once covered
+                with sheets of bronze tiles. A total of 1,600 stone pillars
+                supported the structure. Most of which can still be seen even
+                today.
               </h4>
             </h3>
             <h3 className="card-title">
-              <b>Lahugala Magul Maha Viharaya </b>
+              <b>The Thuparamaya Temple </b>
               <h4>
-                Ruins of this temple are one of the major tourist attractions of
-                the eastern province. And this temple is an archeologically
-                protected monument of the country.
+                This was the first stupa constructed with the introduction of
+                Buddhism in Sri Lanka build by King Devanampiyatissa, it is
+                believed to enshrine the collar-bone of the Buddha.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Lahugala Kitulana National Park </b>
+              <b> Mahasena’s Pavilion </b>
               <h4>
-                One of the smallest national parks in Sri Lanka and it is an
-                important habitat for Sri Lankan elephants and endemic birds.
+                This location is known for its beautiful moonstone, the finest
+                and most well-preserved in Sri Lanka. Moonstones are usually
+                found at the entrances or at the bottom of stairways to temples
+                and other important Buddhist buildings. They are characteristic
+                of ancient Sinhalese artwork.
+              </h4>
+            </h3>
+            <h3 className="card-title">
+              <b> The Twin Ponds </b>
+              <h4>
+                These were large bathing tanks that catered to the needs of the
+                monks and staff of the Abhayagiri temple and were built around
+                the 8th century. Water was filtered several times before flowing
+                in to ponds through a dragon headed spout. Other noteworthy
+                features are the beautiful carvings around the ponds and the
+                snake-shaped guard stone.
+              </h4>
+            </h3>
+            <h3 className="card-title">
+              <b>The Abhayagiri Temple </b>
+              <h4>
+                The Abhayagiri monastery was built by King Vattagamini Abhaya in
+                88 BC after regaining his throne. This is the largest monastery
+                in Sri Lanka for over 600 years. The Abhayagiri stupa was built
+                by king Gajabhahu in the 2nd Century CE, and stands 72 meters
+                high with a diameter of 94 meters.{" "}
+              </h4>
+            </h3>
+            <h3 className="card-title">
+              <b> The Samadhi Buddha Statue </b>
+              <h4>
+                Constructed in the 4th century and is above 1.75 meters high.
+                The Samadhi Buddha statue is one of the best examples of Sri
+                Lankan sculpture. The statue shows the Buddha sitting
+                cross-legged in a meditating or “Samadhi” posture.
+              </h4>
+            </h3>
+            <h3 className="card-title">
+              <b>The Jetawana Stupa </b>
+              <h4>
+                This colossal stupa was built by king Mahasena towards the end
+                of the 4th century and is considered the largest stupa in the
+                world, it was originally about 160 meters tall and an estimated
+                93 million bricks were needed in its construction. It is
+                believed that a part of the Buddha’s belt relic is enshrined
+                within this stupa and is an excellent example of ancient Sri
+                Lankan engineering and construction.
               </h4>
             </h3>
           </p>
