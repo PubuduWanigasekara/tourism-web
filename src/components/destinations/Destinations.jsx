@@ -161,7 +161,7 @@ function Destinations() {
 
             <div className="column">
               {/* 1 */}
-              <Link to="destinations-anuradhapura">
+              <Link to="destinations-colombo">
                 <div className="containerop">
                   <img
                     src={Colombo}
