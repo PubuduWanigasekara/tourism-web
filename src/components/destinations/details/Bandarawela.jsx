@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AmparaI from "../../../images/destinations/details/ampara.jpg";
+import Image from "../../../images/destinations/details/ampara.jpg";
 
 function Bandarawela() {
   return (
@@ -8,7 +8,7 @@ function Bandarawela() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>Ampara</b>
+            <b>Bandarawela</b>
           </h1>
           <Link to="/destinations">
             <button className="btn btn-secondary">Back</button>
@@ -16,84 +16,39 @@ function Bandarawela() {
         </h5>
         <img
           className="card-img-top"
-          src={AmparaI}
+          src={Image}
           alt="Card image cap"
           style={{}}
         />
         <div className="card-body">
           <p className="card-text">
             <h3>
-              This was a hunter’s resting place during British colonial days
-              (Late 1890s and early 1900). During the development of the Galoya
-              scheme from 1949, this was transformed into a town.
+              Bandarawela town, tinted with a colonial past resting among lush
+              forestation has found its niche among its visitors as a base for
+              eco – tourism. During the period of British colonial era, the town
+              occurred rapid development of the infrastructures and human
+              resources due to tea plantation and migration of the British and
+              local people to the area. A lot of past evidence belongs to that
+              period buildings remaining built in the British colonial period
+              with British architectural influences such as the Bandarawela
+              hotel, the Cargill’s building, the tennis club etc..
               {/* <br/><br/>
               <b>Top attractions in Ampara : </b> */}
             </h3>
 
             <h3 className="card-title">
-              <b>Buddhangala Monastery</b>
+              <b>Historical Places In Bandarawela : </b>
               <h4>
-                Hidden among a thick jungle full of wild elephants and leopards
-                is the Buddhangala monastery, a Buddhist meditation center,
-                which is nearby 2300 years old. Established in the secondary
-                century BC by a provincial princess named, Chitra.
+                Ancient Dhowa Buddhist rock temple is one of the well-known
+                heritage sites in this region and it was founded by King
+                Walagamba in the first century BC and is located beside Baddulla
+                - Bandarawella high way 6Km away from Bandarawella city. It has
+                38ft (12Km) Buddha image sculptured from a rock and some
+                paintings belonging to the Kandyan era.
               </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Jayanthi Wewa (lake) </b>
               <h4>
-                The reservoir is a source of water to the elephant herds who
-                roam the bordering gal oya national wildlife park. And the
-                flocks of bird like little cormorant, Malayan night heron,
-                lesser whistling – duck and spot billed pelican, who gather at
-                the reservoir in search of food and nesting ground.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Wadinagala </b>
-              <h4>
-                Stands 2400 feet tall challenging the brave and the reckless. It
-                is famed to be a mountain, one considered as an alternative to
-                bear the foot marks of the Lord Buddha and its heritage in
-                ancient Buddhism is visible in many ruins scattered around the
-                mountain. Beautiful guard stone s, rocks pillars and moonstones
-                lie amidst the towering forest of ebony and stain wood, which is
-                been plundered by treasure hunters and illegal loggers.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Galoya National Park</b>
-              <h4>
-                Established in 1954 and serves as the main catchment area for
-                Senanayake Samudra, the largest reservoir in Sri Lanka.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Crocodile Rock </b>
-              <h4>
-                Lies at the river mouth where the Heda Oya falls to sea. Some
-                drip ledge caves, rock cut steps and ruins of ancient stupa can
-                be found on this rock.
-              </h4>
-            </h3>
-            <h3 className="card-title">
-              <b>Lahugala Magul Maha Viharaya </b>
-              <h4>
-                Ruins of this temple are one of the major tourist attractions of
-                the eastern province. And this temple is an archeologically
-                protected monument of the country.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Lahugala Kitulana National Park </b>
-              <h4>
-                One of the smallest national parks in Sri Lanka and it is an
-                important habitat for Sri Lankan elephants and endemic birds.
+                The Roman Catholic Church -St Anthony’s Church and Methodist
+                church are some other historic places to visit.
               </h4>
             </h3>
           </p>
