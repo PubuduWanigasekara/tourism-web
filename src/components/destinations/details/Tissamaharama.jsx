@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AmparaI from "../../../images/destinations/details/ampara.jpg";
+import image from "../../../images/destinations/details/ampara.jpg";
 
 function Tissamaharama() {
   return (
@@ -8,7 +8,7 @@ function Tissamaharama() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>Ampara</b>
+            <b>Tissamaharama</b>
           </h1>
           <Link to="/destinations">
             <button className="btn btn-secondary">Back</button>
@@ -16,84 +16,37 @@ function Tissamaharama() {
         </h5>
         <img
           className="card-img-top"
-          src={AmparaI}
+          src={image}
           alt="Card image cap"
           style={{}}
         />
         <div className="card-body">
           <p className="card-text">
             <h3>
-              This was a hunter’s resting place during British colonial days
-              (Late 1890s and early 1900). During the development of the Galoya
-              scheme from 1949, this was transformed into a town.
+              Tissamaharama is a significant place not to be missed one, it is the most pleasant towns in the southern coast and named after the man-made reservoir Tissa Wewa. It used to be the capital of the Sinhalese Kingdom of Ruhuna as early as the 3rd century B.C. The large artificial Tissa Wewa (lake), which was a part of a sophisticated irrigation system, also dates from that time.
+              Only few buildings from that period can still be seen today. The town in turn is bounded by a beautiful expanse of paddy fields. In the midst of paddy fields stands most impressive of Tissa’s dagobas (stupas). It is home to many remarkable bird life and provides the scenic backdrop to the town. Today, the town mainly serves as a starting point for visits to Yala National Park and Kataragama.
               {/* <br/><br/>
               <b>Top attractions in Ampara : </b> */}
             </h3>
 
             <h3 className="card-title">
-              <b>Buddhangala Monastery</b>
+              <b>The Tissamaharama Dagobas</b>
               <h4>
-                Hidden among a thick jungle full of wild elephants and leopards
-                is the Buddhangala monastery, a Buddhist meditation center,
-                which is nearby 2300 years old. Established in the secondary
-                century BC by a provincial princess named, Chitra.
+                The Tissamaharam Raja MahaVihara is one of the largest dagobas (Stupa) with a height of 158 feet and 550 feet in circumference in Sri Lanka.  It is found near the town center. A stupa is a Buddhist dome-shaped religious monument.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Jayanthi Wewa (lake) </b>
+              <b>Tissa Wewa (lake)</b>
               <h4>
-                The reservoir is a source of water to the elephant herds who
-                roam the bordering gal oya national wildlife park. And the
-                flocks of bird like little cormorant, Malayan night heron,
-                lesser whistling – duck and spot billed pelican, who gather at
-                the reservoir in search of food and nesting ground.
+                Tissa Wewa is a huge man-made lake about 1.5km from the town centre. It is built by King Kavantissa in the 2nd century BC of the ancient southern kingdom of Ruhuna. The shore nearest the town is often busy with flock of aquatic birds including bitterns, heron’s egrets skimming across the waters.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Wadinagala </b>
+              <b>Yatala Wehera (temple)</b>
               <h4>
-                Stands 2400 feet tall challenging the brave and the reckless. It
-                is famed to be a mountain, one considered as an alternative to
-                bear the foot marks of the Lord Buddha and its heritage in
-                ancient Buddhism is visible in many ruins scattered around the
-                mountain. Beautiful guard stone s, rocks pillars and moonstones
-                lie amidst the towering forest of ebony and stain wood, which is
-                been plundered by treasure hunters and illegal loggers.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Galoya National Park</b>
-              <h4>
-                Established in 1954 and serves as the main catchment area for
-                Senanayake Samudra, the largest reservoir in Sri Lanka.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Crocodile Rock </b>
-              <h4>
-                Lies at the river mouth where the Heda Oya falls to sea. Some
-                drip ledge caves, rock cut steps and ruins of ancient stupa can
-                be found on this rock.
-              </h4>
-            </h3>
-            <h3 className="card-title">
-              <b>Lahugala Magul Maha Viharaya </b>
-              <h4>
-                Ruins of this temple are one of the major tourist attractions of
-                the eastern province. And this temple is an archeologically
-                protected monument of the country.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Lahugala Kitulana National Park </b>
-              <h4>
-                One of the smallest national parks in Sri Lanka and it is an
-                important habitat for Sri Lankan elephants and endemic birds.
+                Lotus ponds surround this site, which has a wealth of elephant details in the carvings. There’s a small museum next to the temple. Amidst the dusty artefacts dug up from around the site, look for an ornate, ancient bidet sitting outside. It was built 2300 years ago.
               </h4>
             </h3>
           </p>

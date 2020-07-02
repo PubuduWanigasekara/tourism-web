@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AmparaI from "../../../images/destinations/details/ampara.jpg";
+import image from "../../../images/destinations/details/ampara.jpg";
 
 function Matale() {
   return (
@@ -8,7 +8,7 @@ function Matale() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>Ampara</b>
+            <b>Matale</b>
           </h1>
           <Link to="/destinations">
             <button className="btn btn-secondary">Back</button>
@@ -16,84 +16,79 @@ function Matale() {
         </h5>
         <img
           className="card-img-top"
-          src={AmparaI}
+          src={image}
           alt="Card image cap"
           style={{}}
         />
         <div className="card-body">
           <p className="card-text">
             <h3>
-              This was a hunter’s resting place during British colonial days
-              (Late 1890s and early 1900). During the development of the Galoya
-              scheme from 1949, this was transformed into a town.
+              Matale is 142 km (88 mi) from Colombo and near to Kandy. Surrounding the town are the Knuckeles Mountain Range, the foothills were called Wiltshire by the British. It is a mainly an agricultural area where tea, rubber, vegetable and spice cultivation dominate.
               {/* <br/><br/>
               <b>Top attractions in Ampara : </b> */}
             </h3>
 
             <h3 className="card-title">
-              <b>Buddhangala Monastery</b>
+              <b>Aluvihare rock temple</b>
               <h4>
-                Hidden among a thick jungle full of wild elephants and leopards
-                is the Buddhangala monastery, a Buddhist meditation center,
-                which is nearby 2300 years old. Established in the secondary
-                century BC by a provincial princess named, Chitra.
+                This is an ancient rock temple of great significance in history of Buddhism. The Buddhist cannon and its commentaries, which were till then handed down orally, were committed to writing for the first time at Aluvihare temple in 2nd century B.C.
+                Folklore has many meanings to the name Aluvihara. One is that the Pali word Aloka was Alu (light) in ancient Sinhala and as it was the abode of Theras, it was a Viharaya. Hence the two words have been coined to make it Aluvihara. Another view is that there is a huge rock, east of the main rock cave, it has not cut off the light. Therefore it was known as the Aloka lena (cave with light).
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Jayanthi Wewa (lake) </b>
+              <b>Sri Muththumariamman Temple</b>
               <h4>
-                The reservoir is a source of water to the elephant herds who
-                roam the bordering gal oya national wildlife park. And the
-                flocks of bird like little cormorant, Malayan night heron,
-                lesser whistling – duck and spot billed pelican, who gather at
-                the reservoir in search of food and nesting ground.
+                Hindu temple in matale. This temple is dedicated to Mariamman, the goddess of rain and fertility.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Wadinagala </b>
+              <b>National Spice Garden</b>
               <h4>
-                Stands 2400 feet tall challenging the brave and the reckless. It
-                is famed to be a mountain, one considered as an alternative to
-                bear the foot marks of the Lord Buddha and its heritage in
-                ancient Buddhism is visible in many ruins scattered around the
-                mountain. Beautiful guard stone s, rocks pillars and moonstones
-                lie amidst the towering forest of ebony and stain wood, which is
-                been plundered by treasure hunters and illegal loggers.
+                Unique centre for learning about Sri Lankan spices and experiencing the real spices of the country.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Galoya National Park</b>
+              <b>Sembuwatta lake</b>
               <h4>
-                Established in 1954 and serves as the main catchment area for
-                Senanayake Samudra, the largest reservoir in Sri Lanka.
+                Man- made lake created from natural spring water. Alongside the lake is a natural swimmimg pool.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Crocodile Rock </b>
+              <b>Wasgamuwa national park</b>
               <h4>
-                Lies at the river mouth where the Heda Oya falls to sea. Some
-                drip ledge caves, rock cut steps and ruins of ancient stupa can
-                be found on this rock.
-              </h4>
-            </h3>
-            <h3 className="card-title">
-              <b>Lahugala Magul Maha Viharaya </b>
-              <h4>
-                Ruins of this temple are one of the major tourist attractions of
-                the eastern province. And this temple is an archeologically
-                protected monument of the country.
+                One of the protected areas where Sri Lankan elephants can be seen in large herds. It is also one of the important bird areas in Sri Lanka.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Lahugala Kitulana National Park </b>
+              <b>Fort MacDowall</b>
               <h4>
-                One of the smallest national parks in Sri Lanka and it is an
-                important habitat for Sri Lankan elephants and endemic birds.
+                One of the few inland forts constructed by the British and was completed in 1803.
+              </h4>
+            </h3>
+
+            <h3 className="card-title">
+              <b>Bambarakiri Ella</b>
+              <h4>
+
+              </h4>
+            </h3>
+
+            <h3 className="card-title">
+              <b>Nature Riverston</b>
+              <h4>
+                Riverstan is one of several hill tops in the Knuckles range being located in a windy gap on a range of scenic mountains with frequently changing climate in the middle of Rattota – Pallegama road. Riverstan is highly popular with both foreign & local travelers. Two telecommunication towers were setup on the both summits of the Riverstan Mountain. The access road for them was a private one and no vehicles were allowed beyond the Riverstan gap. The climate is changed in every minute, Sometimes it brought little sun rays, and sometime cool wind, but most of the time with a thick mist.
+              </h4>
+            </h3>
+
+            <h3 className="card-title">
+              <b>Knuckles</b>
+              <h4>
+                Distance from Colombo 190 Km, the knuckles or Dumbara hills are a striking geographical feature which nature has bestowed on Sri Lanka. These hills cover parts of Kandy and Matale district, and are separated from the central hills by the Mahaweli valley to the south and east, and the Matale valley to the west. This is an Ideal environment for adventure and Eco holiday lovers since rocks, streams, jungle and three waterfalls are the main attractions around the place.
               </h4>
             </h3>
           </p>

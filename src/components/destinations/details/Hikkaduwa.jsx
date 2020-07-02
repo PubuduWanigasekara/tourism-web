@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AmparaI from "../../../images/destinations/details/ampara.jpg";
+import image from "../../../images/destinations/details/ampara.jpg";
 
 function Hikkaduwa() {
   return (
@@ -8,7 +8,7 @@ function Hikkaduwa() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>Ampara</b>
+            <b>Hikkaduwa</b>
           </h1>
           <Link to="/destinations">
             <button className="btn btn-secondary">Back</button>
@@ -16,84 +16,44 @@ function Hikkaduwa() {
         </h5>
         <img
           className="card-img-top"
-          src={AmparaI}
+          src={image}
           alt="Card image cap"
           style={{}}
         />
         <div className="card-body">
           <p className="card-text">
             <h3>
-              This was a hunter’s resting place during British colonial days
-              (Late 1890s and early 1900). During the development of the Galoya
-              scheme from 1949, this was transformed into a town.
+              Sri Lanka’s only marine sanctuary is located here and it is an ideal place for nature lovers with its abundant corals and tropical fishes. Hikkaduwa has something to offer to everyone –coral for snorkelers, waves for surfers and white pristine beaches for those who want to relax and enjoy sun and sand.
               {/* <br/><br/>
               <b>Top attractions in Ampara : </b> */}
             </h3>
 
             <h3 className="card-title">
-              <b>Buddhangala Monastery</b>
+              <b>Hikkaduwa National Park</b>
               <h4>
-                Hidden among a thick jungle full of wild elephants and leopards
-                is the Buddhangala monastery, a Buddhist meditation center,
-                which is nearby 2300 years old. Established in the secondary
-                century BC by a provincial princess named, Chitra.
+                Hikkaduwa’s over exploited marine national park stretches along the northern end of the beach. The coral Garden here is considered to be the best out of all such coral gardens found in Asia. There is a reef of lime stones running parallel to the coast. The corals are in between this line of lime stones and the coast the sea up to about 200 meters from the coast is very shallow. The reef of lime stones protects the corals from high tide. The coral type found mostly here is the type locally called “Gampara”. These corals are found in various forms, shapes and colors. They are a very fascinating sight especially, when there is bright sunlight which gives a very cleaver view of the corals, you see some corals in the shape of a cabbage leaf, some are like a lady’s fan, since there is no silt, and corals can grow in their natural from and color.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Jayanthi Wewa (lake) </b>
+              <b>Surfing </b>
               <h4>
-                The reservoir is a source of water to the elephant herds who
-                roam the bordering gal oya national wildlife park. And the
-                flocks of bird like little cormorant, Malayan night heron,
-                lesser whistling – duck and spot billed pelican, who gather at
-                the reservoir in search of food and nesting ground.
+                The conditions for surfing are at their best from November to April. Over the years Hikkaduwa has spread south, absorbing several hamlets. The best spot for surfing in Hikkaduwa is a short distance from the marine sanctuary off the beach of Wevala and Narigama. Here there are no very large waves but instead accommodating breaks that seldom become frightening. That is why beginners, who need to feel safe in order to progress with confidence, get on so well at Hikkaduwa.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Wadinagala </b>
+              <b>Seenigama Temple </b>
               <h4>
-                Stands 2400 feet tall challenging the brave and the reckless. It
-                is famed to be a mountain, one considered as an alternative to
-                bear the foot marks of the Lord Buddha and its heritage in
-                ancient Buddhism is visible in many ruins scattered around the
-                mountain. Beautiful guard stone s, rocks pillars and moonstones
-                lie amidst the towering forest of ebony and stain wood, which is
-                been plundered by treasure hunters and illegal loggers.
+                This temple is devoted for God Devol and is around 300 years old. But some believe that this place is more than 1000 years old, but there is no any proven evidence. Even though, many visitors go only to the devalaya in land, the main devalaya is located in sea close by island and can be reached only by boat.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Galoya National Park</b>
+              <b>Gemstone Mines</b>
               <h4>
-                Established in 1954 and serves as the main catchment area for
-                Senanayake Samudra, the largest reservoir in Sri Lanka.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Crocodile Rock </b>
-              <h4>
-                Lies at the river mouth where the Heda Oya falls to sea. Some
-                drip ledge caves, rock cut steps and ruins of ancient stupa can
-                be found on this rock.
-              </h4>
-            </h3>
-            <h3 className="card-title">
-              <b>Lahugala Magul Maha Viharaya </b>
-              <h4>
-                Ruins of this temple are one of the major tourist attractions of
-                the eastern province. And this temple is an archeologically
-                protected monument of the country.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Lahugala Kitulana National Park </b>
-              <h4>
-                One of the smallest national parks in Sri Lanka and it is an
-                important habitat for Sri Lankan elephants and endemic birds.
+                Sri Lanka has gained popularity for many things and amongst its most sought after is its precious gem stones. It has gained universal acknowledgement for a doming the blue sapphire engagement ring of late princess Diana and princess Kate Middleton, and to the big blue sapphire that was worm by Kate Winslet in the box office movie “Titanic”. For the best moon stones one must take a visit down to Meetiyagoda gemstone mine.
+                This is an ideal place of visit for those interested in the mining for it is a place of very high concentration of these stones. Also you can visit Gangarama temple that has lots of popular educational paintings and Hikkaduwa lake home monitor lizards and a lot of birdlife.
               </h4>
             </h3>
           </p>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AmparaI from "../../../images/destinations/details/ampara.jpg";
+import Image from "../../../images/destinations/details/ampara.jpg";
 
 function Galle() {
   return (
@@ -8,7 +8,7 @@ function Galle() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>Ampara</b>
+            <b>Galle</b>
           </h1>
           <Link to="/destinations">
             <button className="btn btn-secondary">Back</button>
@@ -16,86 +16,48 @@ function Galle() {
         </h5>
         <img
           className="card-img-top"
-          src={AmparaI}
+          src={Image}
           alt="Card image cap"
           style={{}}
         />
         <div className="card-body">
           <p className="card-text">
             <h3>
-              This was a hunter’s resting place during British colonial days
-              (Late 1890s and early 1900). During the development of the Galoya
-              scheme from 1949, this was transformed into a town.
+              Away from the bustle of the metropolis, 115km along the coast from Colombo, is Galle which is visited by most of the tourists. Once an outpost of the Portuguese invaders and later of the Dutch, it still retains the original fortification in a perfect state of preservation massive old structures denote an atmosphere of the past Portuguese and Dutch era when the Sri Lanka in some parts were held in bondage. A butterfly bridge spans the canal constructed during the Dutch period. This bridge shows been engineering skill.
               {/* <br/><br/>
               <b>Top attractions in Ampara : </b> */}
             </h3>
 
             <h3 className="card-title">
-              <b>Buddhangala Monastery</b>
+              <b>Gall Fort</b>
               <h4>
-                Hidden among a thick jungle full of wild elephants and leopards
-                is the Buddhangala monastery, a Buddhist meditation center,
-                which is nearby 2300 years old. Established in the secondary
-                century BC by a provincial princess named, Chitra.
+                Famous all over the world due to Galle Dutch fort statue facing the Indian Ocean is one of the UNESCO heritage site. The fort was first built by Portuguese in 1588 before being extensively fortified by the Dutch in the middle of 1600. Actually Galle was considered as the place where Portuguese first arrived to Sri Lanka in 1550.The famous invader ‘Lorenzo de Almeida’ was able to make a close connection with the Sri Lankan king Dharmaparakramabahu and got his blessing to build a camp, which was done to ensure the safety of Sri Lanka, but ultimately This place become a prison for the local Sinhalese community who were against the cruel Portuguese rulers.
+                There are two main entrances to the Galle Dutch fort. If you are coming from the Galle harbor side you will see the two symbols on the top the main gate logo contain the wording ‘Dieu at mon droit,’ the motto of the British monarch in England. The inside wall contains the Dutch VOC symbol which Symbolized the Dutch East India company. The other main entrance is located in fort of Galle cricket ground and now mostly used by the public.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Jayanthi Wewa (lake) </b>
+              <b>The Churches </b>
               <h4>
-                The reservoir is a source of water to the elephant herds who
-                roam the bordering gal oya national wildlife park. And the
-                flocks of bird like little cormorant, Malayan night heron,
-                lesser whistling – duck and spot billed pelican, who gather at
-                the reservoir in search of food and nesting ground.
+                Some of the best attractions for tourists in from of Churches are found in Galle. ‘Groote Klerk church’ the oldest protestant church in Sri Lanka is found in Galle. The Dutch constructed a ‘new’ church street in the years 1754. It is known that several engraved tombstones were transfer from the old church to the new church area.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Wadinagala </b>
+              <b>The Galle Light-House </b>
               <h4>
-                Stands 2400 feet tall challenging the brave and the reckless. It
-                is famed to be a mountain, one considered as an alternative to
-                bear the foot marks of the Lord Buddha and its heritage in
-                ancient Buddhism is visible in many ruins scattered around the
-                mountain. Beautiful guard stone s, rocks pillars and moonstones
-                lie amidst the towering forest of ebony and stain wood, which is
-                been plundered by treasure hunters and illegal loggers.
+                This is Sri Lanka’s old light station dating back to 1848, but the original 24.5meters high lighthouse built by the British was located about 100 meters (330ft) from the current site, however it was destroyed in 1934 and the Existing 26.5 Meters lighthouse was erected here. 1939 the light station within the wall of the ancient Galle fort was named a UNESCO world heritage site and well known place for tourist attraction.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Galoya National Park</b>
+              <b>Antiquities of Galle</b>
               <h4>
-                Established in 1954 and serves as the main catchment area for
-                Senanayake Samudra, the largest reservoir in Sri Lanka.
+                The Dutch Commander’s residence or Government House, queen’s house in the British era, can be seen down the street opposite the Dutch Church which leads of the old gate over the doorway of this residence is a large stone slab on which is the date 1683, and the figure of a cock inscribed.
+                Another antiquities of Galle is the old main gate to the fort. The visitor should pause to study to stone lets in to the wall over the entrance and exist this gateway, which tells the story of the conquests of the old city. The lion and unicorn of the British coat of aim is found over the outside area and of the inside is a monogram of the Dutch East India Company a shield with the initials V.O.C chiseled upon it and two lions supporting the crest, the date is 1669.
               </h4>
             </h3>
 
-            <h3 className="card-title">
-              <b>Crocodile Rock </b>
-              <h4>
-                Lies at the river mouth where the Heda Oya falls to sea. Some
-                drip ledge caves, rock cut steps and ruins of ancient stupa can
-                be found on this rock.
-              </h4>
-            </h3>
-            <h3 className="card-title">
-              <b>Lahugala Magul Maha Viharaya </b>
-              <h4>
-                Ruins of this temple are one of the major tourist attractions of
-                the eastern province. And this temple is an archeologically
-                protected monument of the country.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Lahugala Kitulana National Park </b>
-              <h4>
-                One of the smallest national parks in Sri Lanka and it is an
-                important habitat for Sri Lankan elephants and endemic birds.
-              </h4>
-            </h3>
           </p>
           {/* <p className="card-text">
             <small className="text-muted">Last updated 3 mins ago</small>

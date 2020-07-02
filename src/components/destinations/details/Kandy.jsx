@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AmparaI from "../../../images/destinations/details/ampara.jpg";
+import image from "../../../images/destinations/details/ampara.jpg";
 
 function Kandy() {
   return (
@@ -8,7 +8,7 @@ function Kandy() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>Ampara</b>
+            <b>Kandy</b>
           </h1>
           <Link to="/destinations">
             <button className="btn btn-secondary">Back</button>
@@ -16,86 +16,49 @@ function Kandy() {
         </h5>
         <img
           className="card-img-top"
-          src={AmparaI}
+          src={image}
           alt="Card image cap"
           style={{}}
         />
         <div className="card-body">
           <p className="card-text">
             <h3>
-              This was a hunter’s resting place during British colonial days
-              (Late 1890s and early 1900). During the development of the Galoya
-              scheme from 1949, this was transformed into a town.
+              The city of Kandy is located 116 kilometers from Colombo. It is 465 meters above sea level and nestled in the mountainous central region of the island. The city resisted many invasions by Portuguese and Dutch, who occupied most of the island from the 16th century onwards.
+              Kandy remained the last independent capital of Sri Lanka. However, it is still considered the religious and cultural central of the country, with numerous temples and monasteries, Buddhist colleges and beautiful parks and gardens.
               {/* <br/><br/>
               <b>Top attractions in Ampara : </b> */}
             </h3>
 
             <h3 className="card-title">
-              <b>Buddhangala Monastery</b>
+              <b>The Lankathilake temple</b>
               <h4>
-                Hidden among a thick jungle full of wild elephants and leopards
-                is the Buddhangala monastery, a Buddhist meditation center,
-                which is nearby 2300 years old. Established in the secondary
-                century BC by a provincial princess named, Chitra.
+                Known for its traditional Sinhalese architecture and was built in 1344.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Jayanthi Wewa (lake) </b>
+              <b>Embakke Dewalaya</b>
               <h4>
-                The reservoir is a source of water to the elephant herds who
-                roam the bordering gal oya national wildlife park. And the
-                flocks of bird like little cormorant, Malayan night heron,
-                lesser whistling – duck and spot billed pelican, who gather at
-                the reservoir in search of food and nesting ground.
+                A rocky and uneven hilltop, this temple was constructed in the 14th century, is famous for its wooden structure and beautifully intricate wood carvings.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Wadinagala </b>
+              <b>Gadaladeniya temple </b>
               <h4>
-                Stands 2400 feet tall challenging the brave and the reckless. It
-                is famed to be a mountain, one considered as an alternative to
-                bear the foot marks of the Lord Buddha and its heritage in
-                ancient Buddhism is visible in many ruins scattered around the
-                mountain. Beautiful guard stone s, rocks pillars and moonstones
-                lie amidst the towering forest of ebony and stain wood, which is
-                been plundered by treasure hunters and illegal loggers.
+                Temple which was built in South Indian style.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Galoya National Park</b>
+              <b>The Temple Of Tooth </b>
               <h4>
-                Established in 1954 and serves as the main catchment area for
-                Senanayake Samudra, the largest reservoir in Sri Lanka.
+                The most famous attraction in Kandy is the temple of the tooth, or “Sri Dalada Maligawa”. The tooth relic of Lord Buddha is enshrined here. It is surrounded by a moat and low white walls with simple carvings. Its distinctive octagonal tower, or “pattirippuwa”, was built in 1803 and is a houses a collection of palm leaf manuscripts.
+                The tooth is kept in a two story shrine which is covered with a golden canopy and fronted by a museum where many Buddha images are kept. Most of them are gifts from different countries and different paintings depicting the various events in the history of the tooth are also displayed here.
+                A replica of the tooth, together with its on rate and beautiful caskets, is displayed once a year during the “Esala perahara”. This is the island’s largest annual celebration, being celebrated for ten days with colorful and elaborate parades of dancers, drummers and elephants, around a million peoples attend this festival each year. Due to security concerns, the actual tooth is never brought out for the festival.
               </h4>
             </h3>
 
-            <h3 className="card-title">
-              <b>Crocodile Rock </b>
-              <h4>
-                Lies at the river mouth where the Heda Oya falls to sea. Some
-                drip ledge caves, rock cut steps and ruins of ancient stupa can
-                be found on this rock.
-              </h4>
-            </h3>
-            <h3 className="card-title">
-              <b>Lahugala Magul Maha Viharaya </b>
-              <h4>
-                Ruins of this temple are one of the major tourist attractions of
-                the eastern province. And this temple is an archeologically
-                protected monument of the country.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Lahugala Kitulana National Park </b>
-              <h4>
-                One of the smallest national parks in Sri Lanka and it is an
-                important habitat for Sri Lankan elephants and endemic birds.
-              </h4>
-            </h3>
           </p>
           {/* <p className="card-text">
             <small className="text-muted">Last updated 3 mins ago</small>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AmparaI from "../../../images/destinations/details/ampara.jpg";
+import image from "../../../images/destinations/details/ampara.jpg";
 
 function Polonnaruwa() {
   return (
@@ -8,7 +8,7 @@ function Polonnaruwa() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>Ampara</b>
+            <b>Polonnaruwa</b>
           </h1>
           <Link to="/destinations">
             <button className="btn btn-secondary">Back</button>
@@ -16,86 +16,43 @@ function Polonnaruwa() {
         </h5>
         <img
           className="card-img-top"
-          src={AmparaI}
+          src={image}
           alt="Card image cap"
           style={{}}
         />
         <div className="card-body">
           <p className="card-text">
             <h3>
-              This was a hunter’s resting place during British colonial days
-              (Late 1890s and early 1900). During the development of the Galoya
-              scheme from 1949, this was transformed into a town.
+              This city was the second great capital of Sri Lanka after Anuradhapura and is located about 100 kilometres of the south east. It’s prominence as the capital lasted for about 300 years, during which a number of major Buddhist structures were made.
+              <br /><br />By the 13th century, Polonnaruwa became increasingly vulnerable to attacks from the north by Indian invaders, and civil wars, subsequent kings gradually shifted their capitals to words the south-west, and like Anuradhapura, Polonnaruwa was eventually abandoned. This ancient city is named a world heritage site by UNESCO.
               {/* <br/><br/>
               <b>Top attractions in Ampara : </b> */}
             </h3>
 
             <h3 className="card-title">
-              <b>Buddhangala Monastery</b>
+              <b>The Sea Of Parakrama</b>
               <h4>
-                Hidden among a thick jungle full of wild elephants and leopards
-                is the Buddhangala monastery, a Buddhist meditation center,
-                which is nearby 2300 years old. Established in the secondary
-                century BC by a provincial princess named, Chitra.
+                Although without any religious significance, this reservoir is possibly Polonnaruwa’s most impressive feature .it was constructed during the reign of king Parakramabahu in the late 12th century and served both as a defense against invaders and as a supply of water for both the city and for irrigation. Reservoirs in Sri Lanka are somewhat incongruously called “tanks” and some of them, like the sea of Parakrama, are so big they are actually more like inland seas.In fact, this reservoir covers more that 22sequare kilometers and is comprised of three huge bodies of water connected together. This was an incredible feature of ancient engineering which has to be seen and believed. The lake now irrigates more than 72 square kilometers of paddy fields.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Jayanthi Wewa (lake) </b>
+              <b>The Quadrangle of the Temple Of Tooth</b>
               <h4>
-                The reservoir is a source of water to the elephant herds who
-                roam the bordering gal oya national wildlife park. And the
-                flocks of bird like little cormorant, Malayan night heron,
-                lesser whistling – duck and spot billed pelican, who gather at
-                the reservoir in search of food and nesting ground.
+                Just before the quadrangle, lies the remains of Parakramabahu’s seven storayed victory palace. Only its 3 meter thick walls still stand. Within this quadrangle is the vatadage, an elegant temple which consist of two concentric stone terraces encircling a number of Buddha statues in the Samadhi or meditation posture.At the four entrances are beautifully carved moonstones and guard stones making this the finest temple in Polonnaruwa. Most complete structure of the quadrangle is the Thuparama temple which originally constrained a seated Buddha image.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Wadinagala </b>
+              <b>The Gal Viharaya</b>
               <h4>
-                Stands 2400 feet tall challenging the brave and the reckless. It
-                is famed to be a mountain, one considered as an alternative to
-                bear the foot marks of the Lord Buddha and its heritage in
-                ancient Buddhism is visible in many ruins scattered around the
-                mountain. Beautiful guard stone s, rocks pillars and moonstones
-                lie amidst the towering forest of ebony and stain wood, which is
-                been plundered by treasure hunters and illegal loggers.
+                Some of the finest Buddha statues in Sri Lanka are found in the gal Viharaya or “rock temple”, where four Buddha images are carved from the face of a single granite rock. There is a very impressive 5 meter high seated image with an elaborate halo behind its head.
+                Next is a large standing image 7 meters tall. Because of its usual posture with its hands folded across its chest, some people believe that this image is not of the Buddha, but of Ananda thero, his personal attendant.
+                At the end of the cliff is a massive reclining statue 14 meters long. This statue shows the Buddha at rest as he enters in to final nibbhana (the enlightment). The pillow and the feet of the statue are all exquisitely carved. The face also has a most peaceful and serene smile.
               </h4>
             </h3>
 
-            <h3 className="card-title">
-              <b>Galoya National Park</b>
-              <h4>
-                Established in 1954 and serves as the main catchment area for
-                Senanayake Samudra, the largest reservoir in Sri Lanka.
-              </h4>
-            </h3>
 
-            <h3 className="card-title">
-              <b>Crocodile Rock </b>
-              <h4>
-                Lies at the river mouth where the Heda Oya falls to sea. Some
-                drip ledge caves, rock cut steps and ruins of ancient stupa can
-                be found on this rock.
-              </h4>
-            </h3>
-            <h3 className="card-title">
-              <b>Lahugala Magul Maha Viharaya </b>
-              <h4>
-                Ruins of this temple are one of the major tourist attractions of
-                the eastern province. And this temple is an archeologically
-                protected monument of the country.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Lahugala Kitulana National Park </b>
-              <h4>
-                One of the smallest national parks in Sri Lanka and it is an
-                important habitat for Sri Lankan elephants and endemic birds.
-              </h4>
-            </h3>
           </p>
           {/* <p className="card-text">
             <small className="text-muted">Last updated 3 mins ago</small>

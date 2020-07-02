@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AmparaI from "../../../images/destinations/details/ampara.jpg";
+import image from "../../../images/destinations/details/ampara.jpg";
 
 function Trincomalee() {
   return (
@@ -8,7 +8,7 @@ function Trincomalee() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>Ampara</b>
+            <b>Trincomalee</b>
           </h1>
           <Link to="/destinations">
             <button className="btn btn-secondary">Back</button>
@@ -16,84 +16,60 @@ function Trincomalee() {
         </h5>
         <img
           className="card-img-top"
-          src={AmparaI}
+          src={image}
           alt="Card image cap"
           style={{}}
         />
         <div className="card-body">
           <p className="card-text">
             <h3>
-              This was a hunter’s resting place during British colonial days
-              (Late 1890s and early 1900). During the development of the Galoya
-              scheme from 1949, this was transformed into a town.
+              Trincomalee, also known Trinco is popular for its beautiful quiet sandy beaches that are ideal for tourists to relax thousands of miles away from bustling city life. Trincomalee is a one of the most natural harbors in the world. There are only four or five others comparable to Trincomalee harbor, among them Sydney harbor and Buenos Aires harbor in Argentina are some. Trinco harbor is the fifth largest natural harbor. <br /> <br />
+Trincomalee is also famous among tourist for its picturesque and scenic beaches that remain unspoiled and clean. The sea of Trincomalee is relativity shallow that makes it good for bathing and swimming for travelers.
               {/* <br/><br/>
               <b>Top attractions in Ampara : </b> */}
             </h3>
 
             <h3 className="card-title">
-              <b>Buddhangala Monastery</b>
+              <b>Fort Fedrick</b>
               <h4>
-                Hidden among a thick jungle full of wild elephants and leopards
-                is the Buddhangala monastery, a Buddhist meditation center,
-                which is nearby 2300 years old. Established in the secondary
-                century BC by a provincial princess named, Chitra.
+                The small peninsula jutting out of Trincomalee town near the stadium and the main shopping streets is the Portuguese built “fort Fedrick” in the year 1624 CE. Fort Fedrick was built from the debris of a Hindu temple known as Koneshwaram temple after destroying some. Another attraction for traveler is the lover’s leap or swami rock, which is a 130m high cliff giving scenic view of surrounding.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Jayanthi Wewa (lake) </b>
+              <b>Hot Springs</b>
               <h4>
-                The reservoir is a source of water to the elephant herds who
-                roam the bordering gal oya national wildlife park. And the
-                flocks of bird like little cormorant, Malayan night heron,
-                lesser whistling – duck and spot billed pelican, who gather at
-                the reservoir in search of food and nesting ground.
+                The hot springs of Kannya are about five miles North West of Trincomalee and about half a mile off the Anuradhapura road.
+                As with most places of interest in and around Trincomalee these hot springs also have their legends , which goes back to pre-Vijayan times , when Rawanas was ruling Sri Lanka . The legend as told to Bella Sydney Woofl, sister of leornard woofl and recoded in her 1914 publication “how to see Ceylon”, is as follows. <br /> <br />
+
+                “Vishnu wished to prevent rawana from setting forth on some undertaking, and he appeared to ravana as an old man bearing the false news that kannya (his mother) was dead .thereupon ravana determined to put off his project and, perform the rites for the dead, asked where he could find water for the ablution. Vishnu disappeared and the hot spring burst forth where he had stood. Since then this place have been called as kannya”.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Wadinagala </b>
+              <b>Seruwila Temple </b>
               <h4>
-                Stands 2400 feet tall challenging the brave and the reckless. It
-                is famed to be a mountain, one considered as an alternative to
-                bear the foot marks of the Lord Buddha and its heritage in
-                ancient Buddhism is visible in many ruins scattered around the
-                mountain. Beautiful guard stone s, rocks pillars and moonstones
-                lie amidst the towering forest of ebony and stain wood, which is
-                been plundered by treasure hunters and illegal loggers.
+                Seruwila temple is an ancient temple, which is among the sixteen holiest Buddhist shrines in Sri Lanka. It is reachable both from road and sea routes.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Galoya National Park</b>
+              <b>Nilaveli and Uppaveli</b>
               <h4>
-                Established in 1954 and serves as the main catchment area for
-                Senanayake Samudra, the largest reservoir in Sri Lanka.
+                Nilaveli is one of most beautiful beaches in Sri Lanka known for its soft white sand and breath taking bays. Nilaveli is famous for recreational water sports such as scuba diving now more and more travelers are discovering Uppaveli and Nilaveli. Either way, everyone loves “pigeon island”, a pretty island, and reef 1km from Nilaveli that makes for a perfect snorkeling or diving.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Crocodile Rock </b>
+              <b>Marble Beach</b>
               <h4>
-                Lies at the river mouth where the Heda Oya falls to sea. Some
-                drip ledge caves, rock cut steps and ruins of ancient stupa can
-                be found on this rock.
+                This is a place to relax and rest your feet while watching the sun rise against a serene ‘shaded blue’ sea front where the crystal Clear water would make you forget all the aches and pains. That little heaven would be the marble beach. This beach is maintained by Sri Lanka army. Seawater at marble beach is clear and calm as glass.
               </h4>
             </h3>
             <h3 className="card-title">
-              <b>Lahugala Magul Maha Viharaya </b>
+              <b>Pigeon Island </b>
               <h4>
-                Ruins of this temple are one of the major tourist attractions of
-                the eastern province. And this temple is an archeologically
-                protected monument of the country.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>Lahugala Kitulana National Park </b>
-              <h4>
-                One of the smallest national parks in Sri Lanka and it is an
-                important habitat for Sri Lankan elephants and endemic birds.
+                This island got its name because of the rock pigeons live over there. Earlier this island was used by British army as a place for shooting practice during world war time.<br /> <br /> The island, a breeding ground for rock pigeon, is beautiful enough with rock pools and paths. Running through thickets, but it is the underwater landscape that is the real stars. The reef here is shallow making snorkeling almost as satisfying as diving, and its home to dozens of corals. Hundreds of reef fish (including a black tip reef sharks) and turtles.
               </h4>
             </h3>
           </p>
@@ -102,7 +78,7 @@ function Trincomalee() {
           </p> */}
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 
