@@ -5,6 +5,7 @@ import Footer from "../footer/Footer";
 import ImageBar3 from "../../images/ImageBar3.jpg";
 import ImageBar4 from "../../images/ImageBar4.jpg";
 import ImageBar5 from "../../images/ImageBar5.jpg";
+import DestinationImage from "../../images/home/Destination.jpg";
 
 function Home() {
   return (
