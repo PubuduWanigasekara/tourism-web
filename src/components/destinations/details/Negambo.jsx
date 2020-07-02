@@ -71,21 +71,21 @@ function Negambo() {
             </h3>
 
             <h3 className="card-title">
-              <b>No topic  </b>
+              {/* <b>No topic  </b> */}
               <h4>
                 There are so many Hindu temples in Negambo such as Kali temple, Ganapati temple, Murugan temple, Muththumari Amman temple, Karumari Amman temple are some of them.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>No topic 2 </b>
+              {/* <b>No topic 2 </b> */}
               <h4>
                 Seven Jumma Mosques in Negambo and the Negambo Grand Jumma mosque is one of the biggest in Sri Lanka.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>No topic 3 </b>
+              {/* <b>No topic 3 </b> */}
               <h4>
                 There are also Methodist, Baptist and other Anglican Churches in Negambo.
               </h4>

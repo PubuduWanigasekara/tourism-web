@@ -16,7 +16,7 @@ function TheSacredMountain() {
         </h5>
         <img
           className="card-img-top"
-          src={AmparaI}
+          src={Images}
           alt="Card image cap"
           style={{}}
         />
