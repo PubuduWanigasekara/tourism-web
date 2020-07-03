@@ -26,7 +26,7 @@ function ToursCategories() {
             <div className="rowop" style={{ marginBottom: "10px" }}>
               <div className="columnop ">
                 {/* 1 */}
-                <Link to="/tours-categories-shorttrip-01">
+                <Link to="/tours-categories-beachbreak-shorttrip-01">
                   <div className="containerop">
                     <img
                       src={Test}

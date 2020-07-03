@@ -146,10 +146,10 @@ function App() {
             <Route path="/tours">
               <Tours />
             </Route>
-            <Route path="/tours-categories">
+            <Route path="/tours-categories-beachbreak">
               <ToursCategories />
             </Route>
-            <Route path="/tours-categories-shorttrip-01">
+            <Route path="/tours-categories-beachbreak-shorttrip-01">
               <ShortTripOne />
             </Route>
             <Route exact path="/">

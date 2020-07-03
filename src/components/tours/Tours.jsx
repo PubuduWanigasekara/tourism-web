@@ -26,7 +26,7 @@ function Tours() {
             <div className="rowop" style={{ marginBottom: "10px" }}>
               <div className="columnop ">
                 {/* 1 */}
-                <Link to="/tours-categories">
+                <Link to="/tours-categories-beachbreak">
                   <div className="containerop">
                     <img
                       src={BeachBreak}
@@ -47,70 +47,78 @@ function Tours() {
                 </Link>
 
                 {/* 2 */}
-                <div className="containerop">
-                  <img
-                    src={ExclusiveTour}
-                    style={{ width: "100%" }}
-                    className="image"
-                  />
-                  <div class="bottom-right">
-                    <button className="btn btn-dark btn-sm">
-                      <h6>
-                        <b>Exclusive Tour</b>
-                      </h6>
-                    </button>
+                <Link to="/tours-categories-rxclusive-tour">
+                  <div className="containerop">
+                    <img
+                      src={ExclusiveTour}
+                      style={{ width: "100%" }}
+                      className="image"
+                    />
+                    <div className="top-left">
+                      <div className="btn btn-lg btn-dark">
+                        <h6>
+                          <b>Exclusive Tour</b>
+                        </h6>
+                      </div>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
 
               <div className="columnop">
                 {/* 1 */}
-                <div className="containerop">
-                  <img
-                    src={ShortTrips}
-                    style={{ width: "100%" }}
-                    className="image"
-                  />
-                  <div class="bottom-right">
-                    <button className="btn btn-dark btn-sm">
-                      <h6>
-                        <b>Short Trips</b>
-                      </h6>
-                    </button>
+                <Link to="/tours-categories-short-trips">
+                  <div className="containerop">
+                    <img
+                      src={ShortTrips}
+                      style={{ width: "100%" }}
+                      className="image"
+                    />
+                    <div className="top-left">
+                      <div className="btn btn-lg btn-dark">
+                        <h6>
+                          <b>Short Trips</b>
+                        </h6>
+                      </div>
+                    </div>
                   </div>
-                </div>
+                </Link>
 
                 {/* 2 */}
-                <div className="containerop">
-                  <img
-                    src={DiscoveryTour}
-                    style={{ width: "100%" }}
-                    className="image"
-                  />
-                  <div class="bottom-right">
-                    <button className="btn btn-dark btn-sm">
-                      <h6>
-                        <b>Discovery Tour</b>
-                      </h6>
-                    </button>
+                <Link to="/tours-categories-discovery-tour">
+                  <div className="containerop">
+                    <img
+                      src={DiscoveryTour}
+                      style={{ width: "100%" }}
+                      className="image"
+                    />
+                    <div className="top-left">
+                      <div className="btn btn-lg btn-dark">
+                        <h6>
+                          <b>Discovery Tour </b>
+                        </h6>
+                      </div>
+                    </div>
                   </div>
-                </div>
+                </Link>
 
                 {/* 3 */}
-                <div className="containerop">
-                  <img
-                    src={RoyaleSeylon}
-                    style={{ width: "100%" }}
-                    className="image"
-                  />
-                  <div class="bottom-right">
-                    <button className="btn btn-dark btn-sm">
-                      <h6>
-                        <b>RoyaleSeylon</b>
-                      </h6>
-                    </button>
+                <Link to="/tours-categories-royale-seylon">
+                  <div className="containerop">
+                    <img
+                      src={RoyaleSeylon}
+                      style={{ width: "100%" }}
+                      className="image"
+                    />
+                    <div className="top-left">
+                      <div className="btn btn-lg btn-dark">
+                        <h6>
+                          <b>Royale Seylon </b>
+                        </h6>
+                      </div>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
           </div>
