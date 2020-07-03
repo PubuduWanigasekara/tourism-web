@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import Test from "../../../images/tours/tours categories/test.jpg";
 
-function ToursCategories() {
+function ToursCategoriesExclusiveTour() {
   return (
     <>
       <div className="container-sm ">
@@ -11,7 +11,7 @@ function ToursCategories() {
           {/* Header */}
           <div className="headerop">
             <h3>
-              <b>Tours Categories</b>
+              <b>Exclusive Tour</b>
             </h3>
             <p>
               Select Your Choice! {"  "}
@@ -26,7 +26,7 @@ function ToursCategories() {
             <div className="rowop" style={{ marginBottom: "10px" }}>
               <div className="columnop ">
                 {/* 1 */}
-                <Link to="/tours-categories-beachbreak-shorttrip-01">
+                <Link to="/tours-categories-shorttrip-01">
                   <div className="containerop">
                     <img
                       src={Test}
@@ -111,4 +111,4 @@ function ToursCategories() {
   );
 }
 
-export default ToursCategories;
+export default ToursCategoriesExclusiveTour;

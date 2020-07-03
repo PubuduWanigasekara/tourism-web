@@ -43,7 +43,7 @@ import Activities from "./components/activities/Activities.jsx";
 
 import Destinations from "./components/destinations/Destinations";
 
-import ToursCategories from "./components/tours/details/ToursCategories";
+import ToursCategoriesBeachBreak from "./components/tours/details/ToursCategoriesBeachBreak";
 import ShortTripOne from "./components/tours/details/more-details/ShortTripOne";
 
 function App() {
@@ -147,7 +147,7 @@ function App() {
               <Tours />
             </Route>
             <Route path="/tours-categories-beachbreak">
-              <ToursCategories />
+              <ToursCategoriesBeachBreak />
             </Route>
             <Route path="/tours-categories-beachbreak-shorttrip-01">
               <ShortTripOne />
