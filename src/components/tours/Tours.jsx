@@ -47,7 +47,7 @@ function Tours() {
                 </Link>
 
                 {/* 2 */}
-                <Link to="/tours-categories-rxclusive-tour">
+                <Link to="/tours-categories-exclusive-tour">
                   <div className="containerop">
                     <img
                       src={ExclusiveTour}
