@@ -50,6 +50,10 @@ import ToursCategoriesRoyaleSeylon from "./components/tours/details/ToursCategor
 import ToursCategoriesShortTrips from "./components/tours/details/ToursCategoriesShortTrips";
 
 import ShortTripOne from "./components/tours/details/more-details/ShortTripOne";
+import BeachBreakTour01 from "./components/tours/details/more-details/BeachBreakTour01";
+import BeachBreakTour02 from "./components/tours/details/more-details/BeachBreakTour02";
+import ExclusiveTour01 from "./components/tours/details/more-details/ExclusiveTour01";
+import ExclusiveTour02 from "./components/tours/details/more-details/ExclusiveTour02";
 
 function App() {
   return (
@@ -67,6 +71,7 @@ function App() {
             <Route path="/destinations">
               <Destinations />
             </Route>
+
             <Route path="/destinations-ampara">
               <Ampara />
             </Route>
@@ -170,8 +175,18 @@ function App() {
             
             
             <Route path="/tours-categories-beachbreak-shorttrip-01">
-              <ShortTripOne />
+              <BeachBreakTour01 />
             </Route>
+            <Route path="/tours-categories-beachbreak-shorttrip-02">
+              <BeachBreakTour02 />
+            </Route>
+            <Route path="/tours-categories-beachbreak-exclusivetour-01">
+              <ExclusiveTour01 />
+            </Route>
+            <Route path="/tours-categories-beachbreak-exclusivetour-02">
+              <ExclusiveTour02 />
+            </Route>
+
             <Route exact path="/">
               <Home />
             </Route>
