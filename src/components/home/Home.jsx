@@ -6,8 +6,13 @@ import ImageBar3 from "../../images/ImageBar3.jpg";
 import ImageBar4 from "../../images/ImageBar4.jpg";
 import ImageBar5 from "../../images/ImageBar5.jpg";
 import DestinationImage from "../../images/home/Destination.jpg";
+import AboutImage from "../../images/home/About.jpg";
 
 function Home() {
+  const cardImage = {
+    width: "97%",
+    height: 250,
+  };
   return (
     <>
       <div className="homescreen" style={{ marginTop: "-20px" }}>
@@ -70,21 +75,7 @@ function Home() {
       <div className="card mb-3" style={{ maxWidth: "100%" }}>
         <div className="row no-gutters">
           <div className="col-md-4">
-            <svg
-              className="bd-placeholder-img"
-              width="100%"
-              height={250}
-              xmlns="http://www.w3.org/2000/svg"
-              aria-label="Placeholder: Image"
-              preserveAspectRatio="xMidYMid slice"
-              role="img"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#868e96" />
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                Image
-              </text>
-            </svg>
+            <img src={AboutImage} style={cardImage} className="image" />
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -141,21 +132,7 @@ function Home() {
           </div>
 
           <div className="col-md-4">
-            <svg
-              className="bd-placeholder-img"
-              width="97%"
-              height={250}
-              xmlns="http://www.w3.org/2000/svg"
-              aria-label="Placeholder: Image"
-              preserveAspectRatio="xMidYMid slice"
-              role="img"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#868e96" />
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                Image
-              </text>
-            </svg>
+            <img src={DestinationImage} style={cardImage} className="image" />
           </div>
         </div>
       </div>
