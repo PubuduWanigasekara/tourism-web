@@ -13,7 +13,7 @@ function BeachBreakTour02() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>South Coast And Wild Life With Gem City- 3 Days 2nights</b>
+            <b>Mirissa Creature Beach Break – 5 Days 4 Nights</b>
           </h1>
           <Link to="/tours-categories-beachbreak">
             <button className="btn btn-secondary">Back</button>
@@ -28,48 +28,32 @@ function BeachBreakTour02() {
         <div className="card-body">
           <p className="card-text">
             <h3 className="card-title">
-              <b>Day 01 - Galle fortress </b>
+              <b>Day 01- Negambo city - Mirissa </b>
               <h4>
-                Upon your arrival, our tour guide will pick up you at
-                Bandaranayaka International airport and transfer you to Galle-
-                the Dutch fortified city. Here you can see 17th century fortress
-                bursting with life, quaint shops where you can purchase
-                exquisite handmade lace items. Also you will be visiting
-                Hikkaduwa and around include: National park. Overnight stay at
-                Galle.
+                Our chauffer will pick up you at the airport and after 6 hours of drive you can arrive at Mirissa Whale creature beach. While you are on your way to the destination don't miss out to enjoy the rubber, paddy fields and beautiful landscapes. After checking in your resort you can start your beach break tour. And then stay your night in a sea side resort.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Day 02 - Wild life Yala National park </b>
+              <b>Day 2 -3- 4</b>
               <h4>
-                Staring the journey in the Morning leaving to Thissamaharama,
-                the gateway to Yala National park. Afternoon will be spent at
-                the park and that day Night stay at Yala or Tissamaharamaya.
+                The next three days are the most wonderful time of your beach break tour for the reason is that you can spend all your times as you wish. If you want to enjoy the fresh cool air from the sea, wake up early to soak in to the warm water or catch the sunrise moment. Then enjoy your breakfast. You can be totally free and ease your mind from stresses of daily life while enjoying the sunrise moment.
+                Why don't you take your leisure time to wander along the beach sunbathing in the morning sunlight or read a book under tree of in a cool place? The one activity that almost every visitors to Mirissa take part in is a Whale watching boat trip. So why you want be late for that? Also joining with this tour you have chance to visit beautiful landscape such as Hummanaya Blow hole, Weurukannala temple, Parey Dewa temple (Rock in water), Dondra light house and also you will get a chance to learn about Dutch Era by visiting Dutch Rampart and Star fort in Matara. To add more activities and values to your trip you can enjoy with snorkeling, surfing and stilt fishing.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Day 03 - Gem city;Rathnapura </b>
+              <b>Day 5</b>
               <h4>
-                Morning leaving to Rathanpura from your stay and this will be
-                the last day of the tour. And after reaching there you can visit
-                the gem mines and gem museum. Evening returning to Negambo your
-                hotel or Katunayake International Airport to depature. And the
-                tour ends here...
+                In the morning before you return to the airport you can take a rest at your resort or sightsee the reminder attraction. Our car will pick up you at your resort and transfer you to the airport. A beach break comes to the end.
               </h4>
             </h3>
 
             <h3 className="card-title">
               <b>Summary</b>
               <h4>
-                This trip is from Galle fort to Yala and gem city which covers
-                the best of this area. Discovering the beloved Galle city,
-                safari at Yala National park are the best parts of this tour.
-                And if you are looking for the real valuable gems I'm sure this
-                trip to gem city will give you a lot of understanding of how
-                that are found and the value of those gems and this trip is
-                surely a perfect choice.
+                Being known as the Sri Lanka’s biggest creatures, the blue whales are in a small fishing village – Mirissa which has a wide stretch of a golden beach full of palm trees. Mirissa is one of the closest point to watch whales and dolphins and also famous for activities like water skiing, surfing, snorkeling. The tropical sunlight in Mirissa will make you feel warm and your skin color will turn into sexy tan color.
+                Visiting the city of Matara will give you a chance to visit places like Dutch Rampart, Parey Dewa temple (modern Buddhist temple on Pigeon Island) and star fort will help you to understand more about history and nature. So let’s go to Mirissa for a memorable trip.
               </h4>
             </h3>
 
@@ -78,14 +62,11 @@ function BeachBreakTour02() {
               <h4>
                 <ui>
                   <li>
-                    Strolling at the sculptured streets of arty and whimsical
-                    city of Galle.
+                    Joining outdoor activities such as playing beach games and water activities like diving, snorkeling and also enjoy whale and dolphin watching activities and extra special you can enjoy a seafood party at night
                   </li>
                   <li>
-                    Watching the native leopards and listening out for big eared
-                    elephants in Yala National park.
+                    Visiting places like Dondra light house, Wewrukannala viharaya, Hummanaya blow- hole, Parey Dewa temple, Dutch rampart, Star fort and also enjoy some fishing with locals.
                   </li>
-                  <li>Discovering the outskirts of gem city.</li>
                 </ui>{" "}
               </h4>
             </h3>
