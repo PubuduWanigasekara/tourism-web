@@ -13,7 +13,7 @@ function BeachBreakTour01() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>South Coast And Wild Life With Gem City- 3 Days 2nights</b>
+            <b>A Beach Break From Hill Country to Arugambay - 5 Days 4 Nights</b>
           </h1>
           <Link to="/tours-categories-beachbreak">
             <button className="btn btn-secondary">Back</button>
@@ -28,48 +28,34 @@ function BeachBreakTour01() {
         <div className="card-body">
           <p className="card-text">
             <h3 className="card-title">
-              <b>Day 01 - Galle fortress </b>
+              <b>Day 1: Negambo airport – Arugambay</b>
               <h4>
-                Upon your arrival, our tour guide will pick up you at
-                Bandaranayaka International airport and transfer you to Galle-
-                the Dutch fortified city. Here you can see 17th century fortress
-                bursting with life, quaint shops where you can purchase
-                exquisite handmade lace items. Also you will be visiting
-                Hikkaduwa and around include: National park. Overnight stay at
-                Galle.
+                Starting the journey at Negambo airport (Bandaranayake international airport) and traveling to Arugambay (via Colombo Kandy road). During six hours of travel by car (about 350Km) you can behold the roadside landscape. Upon arrival you can go through a nestled amidst verdant hills, interspersed by the Mahaveli Ganga (river) and beautiful Kandy lake which is the center piece. Kandy is a certainly the most picturesque city in the island and most visited before reaching Arugambay.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Day 02 - Wild life Yala National park </b>
+              <b>Day 2 - 4: Arugambay beach </b>
               <h4>
-                Staring the journey in the Morning leaving to Thissamaharama,
-                the gateway to Yala National park. Afternoon will be spent at
-                the park and that day Night stay at Yala or Tissamaharamaya.
+                During the three days of this Arugambay beach tour you are free to take a rest and discover the surrounding areas such as Pottuvil lagoon, Pottuvil point, Muhudumaha viharaya, Panama to Okanda and Kumana bird sanctuary. Some options can be offered on your break in Arugambay such as sunbathing, surfing, swimming, joining sporty games etc. Delicious traditional food and barbecue to be served upon your request.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Day 03 - Gem city;Rathnapura </b>
+              <b>Day 5 - Departure </b>
               <h4>
-                Morning leaving to Rathanpura from your stay and this will be
-                the last day of the tour. And after reaching there you can visit
-                the gem mines and gem museum. Evening returning to Negambo your
-                hotel or Katunayake International Airport to depature. And the
-                tour ends here...
+                Our car will pick you up at your resort and depart for airport or your hotel at Negambo. And then the tour ends.
+<br /><br />
+Note: you can stay another nights as your wish
               </h4>
             </h3>
 
             <h3 className="card-title">
               <b>Summary</b>
               <h4>
-                This trip is from Galle fort to Yala and gem city which covers
-                the best of this area. Discovering the beloved Galle city,
-                safari at Yala National park are the best parts of this tour.
-                And if you are looking for the real valuable gems I'm sure this
-                trip to gem city will give you a lot of understanding of how
-                that are found and the value of those gems and this trip is
-                surely a perfect choice.
+                This tour destinations are at the heart of Sri Lanka’s nascent places and so you are able to spend your beach break at the southern end of Arugambay beach. Also you will get a great opportunity to visit one of the most valuable heritance city Kandy of Sri Lanka. This tour is designed to capture the real essence of Sri Lanka and is a fascinating introduction to one of the most popular surfing center ranked 3rd among the best 20 beaches in the world by the ‘British Surfers Association’.
+
+                In Arugambay you can also visit Lahugala National park – famous for elephants, Pottuvil lagoon – paradise for bird watchers and Kumana bird sanctuary. A stroll along main street will take you pass many traditional Sri Lankan restaurants which serves some of the best rice and curry meals in the country.
               </h4>
             </h3>
 
@@ -78,14 +64,13 @@ function BeachBreakTour01() {
               <h4>
                 <ui>
                   <li>
-                    Strolling at the sculptured streets of arty and whimsical
-                    city of Galle.
+                    Discovering the culture capital and the last palace (Temple of Tooth Relic) in Sri Lanka.
                   </li>
                   <li>
-                    Watching the native leopards and listening out for big eared
-                    elephants in Yala National park.
+                    Taking part in outdoor activities.
                   </li>
-                  <li>Discovering the outskirts of gem city.</li>
+                  <li>Beach games and surfing.</li>
+                  <li>Enjoying outdoor seafood and traditional meals.</li>
                 </ui>{" "}
               </h4>
             </h3>

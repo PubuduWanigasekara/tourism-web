@@ -13,7 +13,7 @@ function ShortTripOne() {
       <div className="card mb-3">
         <h5 className="card-title">
           <h1>
-            <b>South Coast And Wild Life With Gem City- 3 Days 2nights</b>
+            <b>Discovery Tour to South Coast to Culture Capital – 6 Days 5 Nights</b>
           </h1>
           <Link to="/tours-categories-discovery-tour">
             <button className="btn btn-secondary">Back</button>
@@ -28,48 +28,51 @@ function ShortTripOne() {
         <div className="card-body">
           <p className="card-text">
             <h3 className="card-title">
-              <b>Day 01 - Galle fortress </b>
+              <b>Day 01- Negambo airport- Bentota </b>
               <h4>
-                Upon your arrival, our tour guide will pick up you at
-                Bandaranayaka International airport and transfer you to Galle-
-                the Dutch fortified city. Here you can see 17th century fortress
-                bursting with life, quaint shops where you can purchase
-                exquisite handmade lace items. Also you will be visiting
-                Hikkaduwa and around include: National park. Overnight stay at
-                Galle.
+                Our guide will pick you up at the airport and then drive you to Bentota. After arriving at Bentota you can relax yourself at the beach.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Day 02 - Wild life Yala National park </b>
+              <b>Day 02- Bentota </b>
               <h4>
-                Staring the journey in the Morning leaving to Thissamaharama,
-                the gateway to Yala National park. Afternoon will be spent at
-                the park and that day Night stay at Yala or Tissamaharamaya.
+                You are able to go on a boat trip along Madu river to discover it's picturesque scene, visit the garden and Galpota temple which has been for there from the 12th century. This is a very poetic landscape which will bring you a relaxing time with fresh air and beautiful environment.
               </h4>
             </h3>
 
             <h3 className="card-title">
-              <b>Day 03 - Gem city;Rathnapura </b>
+              <b>Day 03- Bentota- Galle-Thissamaharama  </b>
               <h4>
-                Morning leaving to Rathanpura from your stay and this will be
-                the last day of the tour. And after reaching there you can visit
-                the gem mines and gem museum. Evening returning to Negambo your
-                hotel or Katunayake International Airport to depature. And the
-                tour ends here...
+                Wake up early morning and after the breakfast you will visit the world heritage site in Galle. Galle was the main port of Sri Lanka for more than 200 years and was an important stop for boats and ships travelling between Europe and Asia. In the afternoon you will arrive to the Yala National park and get a chance to join a safari by 4*4 jeep and also spend your night in a Thissamaharama. If you like you can visit the ancient temple in the city.
+              </h4>
+            </h3>
+
+            <h3 className="card-title">
+              <b>Day 04- Thissamaharama- Nuwara Eliya   </b>
+              <h4>
+                After breakfast our guide will drive you to Nuwara Eliya, superb hill country in Sri Lanka. You are able to see the beautiful waterfalls, Botanical garden, vast areas of tea plantations after reaching the destination. Also you can visit the Seetha kovil, and many more beautiful places like Lake Gregory etc.
+              </h4>
+            </h3>
+
+            <h3 className="card-title">
+              <b>Day 05- Nuwara Eliya- Kandy  </b>
+              <h4>
+                Wake up early morning and we will take a Jeep tour to visit Horton plains. You'll need to wrap up to warm yourself (a morning frost isn't common) for down hike across there bleak moorlands. It's one of the most enjoyable walks in the country, so don't forget your camera for some nice photos. After the lunch you will go to culture capital, on the way you will see largest tea plantation estate and famous tea factory. You can buy the best Ceylon tea and taste a cup of tea from hill country. In the evening you will arrive the culture capital city. You will visit the Tooth temple and enjoy in the cultural show by teenagers. Take a walk around the city at night.
+              </h4>
+            </h3>
+
+            <h3 className="card-title">
+              <b>Day 06- Kandy- Negambo (airport)</b>
+              <h4>
+                On the next day, while travelling back to Negambo (or airport) you can discover spices and herbal garden. To satisfy your desire of discovering, we will stop at the elephant orphanage which the best known place for big elephants reservation in Sri Lanka. You can feed them food and take the photos with elephants. And then it will be the last part of your tour and say goodbye. Our guide will drive you the airport. Tour ends.
               </h4>
             </h3>
 
             <h3 className="card-title">
               <b>Summary</b>
               <h4>
-                This trip is from Galle fort to Yala and gem city which covers
-                the best of this area. Discovering the beloved Galle city,
-                safari at Yala National park are the best parts of this tour.
-                And if you are looking for the real valuable gems I'm sure this
-                trip to gem city will give you a lot of understanding of how
-                that are found and the value of those gems and this trip is
-                surely a perfect choice.
+                This exclusive tours takes you from an empty swath of golden sand beach called Bentota of southern coast and also to Yala National park and picturesque heritage city of Kandy. The city of Kandy is well known for the temple of tooth relic. And Beloved Galle fort is the enchanting old City in Sri Lanka. While the cold breezy winds in Hortan Plains and the wild life and all the experiences you get in this tour will leave you a lasting impression and create an unforgettable moment I'm your lives.
               </h4>
             </h3>
 
@@ -78,14 +81,14 @@ function ShortTripOne() {
               <h4>
                 <ui>
                   <li>
-                    Strolling at the sculptured streets of arty and whimsical
-                    city of Galle.
+                    Having a boat trip to explore Madhu River and its lagoons.
                   </li>
                   <li>
-                    Watching the native leopards and listening out for big eared
-                    elephants in Yala National park.
+                    Admiring the spectacular beauty of beloved Galle fort which was built during the British colonial era.
                   </li>
-                  <li>Discovering the outskirts of gem city.</li>
+                  <li>Joining the Safari in one of the largest National park in Yala and understand the wild nature in Sri Lanka.</li>
+                  <li>Getting a chance to enjoy the best tea in the world from hill country of Sri Lanka and don't miss out to visit Hortan Plains in Nuwara Eliya.</li>
+                  <li>Discovering the culture city Kandy and visiting the temple of tooth relic.</li>
                 </ui>{" "}
               </h4>
             </h3>
