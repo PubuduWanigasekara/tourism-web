@@ -26,7 +26,7 @@ function ToursCategoriesExclusiveTour() {
             <div className="rowop" style={{ marginBottom: "10px" }}>
               <div className="columnop ">
                 {/* 1 */}
-                <Link to="/tours-categories-beachbreak-exclusivetour-01">
+                <Link to="/tours-categories-exclusivetour-01">
                   <div className="containerop">
                     <img
                       src={Test}
@@ -48,7 +48,7 @@ function ToursCategoriesExclusiveTour() {
 
               <div className="columnop">
                 {/* 1 */}
-                <Link to="/tours-categories-beachbreak-exclusivetour-02">
+                <Link to="/tours-categories-exclusivetour-02">
                   <div className="containerop">
                     <img
                       src={Test}

@@ -15,7 +15,7 @@ function ShortTripOne() {
           <h1>
             <b>South Coast And Wild Life With Gem City- 3 Days 2nights</b>
           </h1>
-          <Link to="/tours-categories">
+          <Link to="/tours-categories-short-trips">
             <button className="btn btn-secondary">Back</button>
           </Link>
         </h5>
