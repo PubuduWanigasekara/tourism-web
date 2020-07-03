@@ -57,6 +57,8 @@ import ShortTrip01 from "./components/tours/details/more-details/ShortTrip01";
 import ShortTrip02 from "./components/tours/details/more-details/ShortTrip02";
 import ShortTrip03 from "./components/tours/details/more-details/ShortTrip03";
 import ShortTrip04 from "./components/tours/details/more-details/ShortTrip04";
+import DiscoveryTour01 from "./components/tours/details/more-details/DiscoveryTour01";
+import DiscoveryTour02 from "./components/tours/details/more-details/DiscoveryTour02";
 
 function App() {
   return (
@@ -200,6 +202,12 @@ function App() {
             </Route>
             <Route path="/tours-categories-shorttrip-04">
               <ShortTrip04 />
+            </Route>
+            <Route path="/tours-categories-discoverytour-01">
+              <DiscoveryTour01 />
+            </Route>
+            <Route path="/tours-categories-discoverytour-02">
+              <DiscoveryTour02 />
             </Route>
 
             <Route exact path="/">
