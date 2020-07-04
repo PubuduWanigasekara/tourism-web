@@ -17,6 +17,7 @@ function Home() {
   return (
     <>
       <div className="homescreen" style={{ marginTop: "-20px" }}>
+        
         <div id="myCarousel" className="carousel slide" data-ride="carousel">
           {/* Indicators */}
           <ol className="carousel-indicators">
@@ -28,7 +29,7 @@ function Home() {
           <div className="carousel-inner">
             <div className="item active">
               <img
-                src={ImageBar3}
+                src={ImageBar5}
                 alt="Los Angeles"
                 style={{ width: "100%" }}
               />
@@ -38,7 +39,7 @@ function Home() {
               {/*</div>*/}
             </div>
             <div className="item">
-              <img src={ImageBar4} alt="Chicago" style={{ width: "100%" }} />
+              <img src={ImageBar5} alt="Chicago" style={{ width: "100%" }} />
               {/*<div className="carousel-caption">*/}
               {/*    <h3>Chicago</h3>*/}
               {/*    <p>Thank you, Chicago!</p>*/}
