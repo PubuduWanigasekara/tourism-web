@@ -9,7 +9,7 @@ body {
 
 .btn:hover {
   color: #fff !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 @media screen and (min-device-width: 790px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {

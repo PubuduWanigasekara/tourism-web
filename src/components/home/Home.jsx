@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
@@ -72,9 +73,9 @@ function Home() {
       </div>
 
       {/* About Us */}
-      <div className="card mb-3" style={{ maxWidth: "100%" }}>
+      <div className="card mb-3 " style={{ maxWidth: "100%" }}>
         <div className="row no-gutters">
-          <div className="col-md-4">
+          <div className="col-md-4 mobile">
             <img src={AboutImage} style={cardImage} className="image" />
           </div>
           <div className="col-md-8">
@@ -94,9 +95,11 @@ function Home() {
                   Feel the life, come and travel with us.
                 </b>
               </p>
-              <p className="card-text">
-                <button className="btn btn-primary">Find More About</button>
-              </p>
+              <Link to="/about">
+                <p className="card-text">
+                  <button className="btn btn-primary">Find More About</button>
+                </p>
+              </Link>
             </div>
           </div>
         </div>
@@ -121,17 +124,19 @@ function Home() {
                   more.. The choice is yours.
                 </b>
               </p>
-              <p className="card-text">
-                <small className="text-muted">
-                  <button className="btn btn-primary">
-                    Find More Destinations
-                  </button>
-                </small>
-              </p>
+              <Link to="/destinations">
+                <p className="card-text">
+                  <small className="text-muted">
+                    <button className="btn btn-primary">
+                      Find More Destinations
+                    </button>
+                  </small>
+                </p>
+              </Link>
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 mobile">
             <img src={DestinationImage} style={cardImage} className="image" />
           </div>
         </div>
