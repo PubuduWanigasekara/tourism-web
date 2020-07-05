@@ -18,9 +18,7 @@ function Home() {
   return (
     <>
       <div className="homescreen">
-        <div id="logo">
-          text
-        </div>
+        <div id="logo">text</div>
         <div id="myCarousel" className="carousel slide" data-ride="carousel">
           {/* Indicators */}
           <ol className="carousel-indicators">
@@ -34,7 +32,11 @@ function Home() {
               <img
                 src={ImageBar5}
                 alt="Los Angeles"
-                style={{ width: "100%" , backgroundSize:"cover", height:"100vh"}}
+                style={{
+                  width: "100%",
+                  backgroundSize: "cover",
+                  height: "100vh",
+                }}
               />
               {/*<div className="carousel-caption">*/}
               {/*    <h3>Los Angeles</h3>*/}
@@ -42,14 +44,30 @@ function Home() {
               {/*</div>*/}
             </div>
             <div className="item">
-              <img src={ImageBar5} alt="Chicago" style={{ width: "100%" }} />
+              <img
+                src={ImageBar5}
+                alt="Chicago"
+                style={{
+                  width: "100%",
+                  backgroundSize: "cover",
+                  height: "100vh",
+                }}
+              />
               {/*<div className="carousel-caption">*/}
               {/*    <h3>Chicago</h3>*/}
               {/*    <p>Thank you, Chicago!</p>*/}
               {/*</div>*/}
             </div>
             <div className="item">
-              <img src={ImageBar5} alt="New York" style={{ width: "100%" }} />
+              <img
+                src={ImageBar5}
+                alt="New York"
+                style={{
+                  width: "100%",
+                  backgroundSize: "cover",
+                  height: "100vh",
+                }}
+              />
               {/*<div className="carousel-caption">*/}
               {/*    <h3>New York</h3>*/}
               {/*    <p>We love the Big Apple!</p>*/}
