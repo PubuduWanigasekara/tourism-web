@@ -38,7 +38,7 @@ function Destinations() {
 
   return (
     <>
-      <div className="container-sm" style={containerStyle}>
+      <div className="container-sm" style={containerStyle} id="mtn">
         <div>
           {/* Header */}
           <div className="header">

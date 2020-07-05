@@ -11,6 +11,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
 
 import Tours from "./components/tours/Tours.jsx";
 import Ampara from "./components/destinations/details/Ampara.jsx";
@@ -79,6 +80,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
 
             <Route path="/destinations-ampara">
