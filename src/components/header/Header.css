@@ -5,3 +5,11 @@
 .navbar-right {
   margin-right: 5vw;
 }
+
+#header {
+  position: absolute !important;
+  top: 0;
+  z-index: 999;
+  height: 50px;
+  width: 100% !important;
+}

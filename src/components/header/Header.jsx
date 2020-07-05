@@ -6,7 +6,7 @@ function Header() {
   return (
     <div>
       
-      <nav class="navbar navbar-expand-lg navbar-light ">
+      <nav class="navbar navbar-expand-lg navbar-light " id="header">
         <Link class="navbar-brand" to="/home">
           <b>Chauffeur Prive Sri Lanka</b>
         </Link>

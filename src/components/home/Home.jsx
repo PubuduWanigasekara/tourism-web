@@ -14,10 +14,13 @@ function Home() {
     width: "97%",
     height: 250,
   };
+
   return (
     <>
-      <div className="homescreen" style={{ marginTop: "-20px" }}>
-        
+      <div className="homescreen">
+        <div id="logo">
+          text
+        </div>
         <div id="myCarousel" className="carousel slide" data-ride="carousel">
           {/* Indicators */}
           <ol className="carousel-indicators">
@@ -26,12 +29,12 @@ function Home() {
                         <li data-target="#myCarousel" data-slide-to={2} /> */}
           </ol>
           {/* Wrapper for slides */}
-          <div className="carousel-inner">
+          <div className="carousel-inner" id="inner">
             <div className="item active">
               <img
                 src={ImageBar5}
                 alt="Los Angeles"
-                style={{ width: "100%" }}
+                style={{ width: "100%" , backgroundSize:"cover", height:"100vh"}}
               />
               {/*<div className="carousel-caption">*/}
               {/*    <h3>Los Angeles</h3>*/}
