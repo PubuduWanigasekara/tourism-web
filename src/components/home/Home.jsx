@@ -35,7 +35,6 @@ function Home() {
                 style={{
                   width: "100%",
                   backgroundSize: "cover",
-                  height: "100vh",
                 }}
               />
               {/*<div className="carousel-caption">*/}
@@ -50,7 +49,7 @@ function Home() {
                 style={{
                   width: "100%",
                   backgroundSize: "cover",
-                  height: "100vh",
+                  
                 }}
               />
               {/*<div className="carousel-caption">*/}
@@ -65,7 +64,7 @@ function Home() {
                 style={{
                   width: "100%",
                   backgroundSize: "cover",
-                  height: "100vh",
+                
                 }}
               />
               {/*<div className="carousel-caption">*/}
