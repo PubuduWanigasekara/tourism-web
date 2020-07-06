@@ -41,7 +41,7 @@ function Destinations() {
       <div className="container-sm" style={containerStyle} id="mtn">
         <div>
           {/* Header */}
-          <div className="header">
+          <div className="header" style={{marginTop:"4%"}}>
             <h1>
               <b>Destinations</b>
             </h1>
