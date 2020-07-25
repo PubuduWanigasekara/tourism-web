@@ -46,14 +46,6 @@ function Activities() {
             </h3>
 
             <h3 className="card-title">
-              <b>Galoya National Park</b>
-              <h4>
-                Established in 1954 and serves as the main catchment area for
-                Senanayake Samudra, the largest reservoir in Sri Lanka.
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
               <b>Snorkeling and Scuba Diving</b>
               <h4>
                 Hikkaduwa, Trincomalee, Mirissa, Unawatuna, Nilavali, Bentota,

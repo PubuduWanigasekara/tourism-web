@@ -36,7 +36,7 @@ function ToursCategoriesBeachBreak() {
                     <div className="top-left">
                       <div className="btn btn-lg btn-dark">
                         <h6>
-                          <b>Short Trips 01</b>
+                          <b>Beach Break 01</b>
                         </h6>
                       </div>
                     </div>
@@ -58,7 +58,7 @@ function ToursCategoriesBeachBreak() {
                     <div className="top-left">
                       <div className="btn btn-lg btn-dark">
                         <h6>
-                          <b>Short Trips 02</b>
+                          <b>Beach break 02</b>
                         </h6>
                       </div>
                     </div>

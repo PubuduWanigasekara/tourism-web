@@ -124,7 +124,7 @@ function Home() {
               </h3>
               <p className="card-text">
                 <b>
-                  Travel through the island with one of ths leading travel
+                  Travel through the island with one of the leading travel
                   agencies in Sri Lanka as your trusted tour partner. Make your
                   choices with the diversified greenaries, sunny beaches and
                   more.. The choice is yours.
