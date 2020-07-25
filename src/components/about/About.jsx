@@ -31,7 +31,7 @@ function About() {
 
             <h3 className="card-title">
               <h4>
-                Launched for many years, Sri Lanka Chauffursprives has been one
+                Launched for many years, Sri Lanka Chauffeurprive has been one
                 among the major tour operators in Sri Lanka and served a huge
                 number of travelers every year. Our services comprise a wide
                 range of providing for foreign visitors, car pick-up and
@@ -78,16 +78,6 @@ function About() {
                     satisfaction.
                   </li>
                 </ui>
-              </h4>
-            </h3>
-
-            <h3 className="card-title">
-              <b>About Chauffeurprive Sri Lanka</b>
-              <h4>
-                Chauffeurprive Sri Lanka is a specialist in tour organization
-                focused on offering our clients luxury holiday packages and the
-                opportunity to enjoy Sri Lanka's beauty making your experience
-                with us a momentous occasion.{" "}
               </h4>
             </h3>
           </p>
