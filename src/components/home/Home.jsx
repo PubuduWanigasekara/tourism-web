@@ -44,7 +44,7 @@ function Home() {
             </div>
             <div className="item">
               <img
-                src={ImageBar5}
+                src={ImageBar4}
                 alt="Chicago"
                 style={{
                   width: "100%",
