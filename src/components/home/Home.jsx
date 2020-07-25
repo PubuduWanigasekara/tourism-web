@@ -49,7 +49,6 @@ function Home() {
                 style={{
                   width: "100%",
                   backgroundSize: "cover",
-                  
                 }}
               />
               {/*<div className="carousel-caption">*/}
@@ -59,12 +58,11 @@ function Home() {
             </div>
             <div className="item">
               <img
-                src={ImageBar5}
+                src={ImageBar3}
                 alt="New York"
                 style={{
                   width: "100%",
                   backgroundSize: "cover",
-                
                 }}
               />
               {/*<div className="carousel-caption">*/}
