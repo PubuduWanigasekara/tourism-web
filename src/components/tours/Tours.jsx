@@ -11,7 +11,7 @@ import ExclusiveTour from "../../images/tours/Exclusive tour.jpg";
 function Tours() {
   return (
     <>
-      <div className="container-sm ">
+      <div className="container-sm " id="mtn">
         <div>
           {/* Header */}
           <div className="headerop">

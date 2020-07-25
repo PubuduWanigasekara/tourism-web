@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
@@ -6,11 +7,18 @@ import ImageBar3 from "../../images/ImageBar3.jpg";
 import ImageBar4 from "../../images/ImageBar4.jpg";
 import ImageBar5 from "../../images/ImageBar5.jpg";
 import DestinationImage from "../../images/home/Destination.jpg";
+import AboutImage from "../../images/home/About.jpg";
 
 function Home() {
+  const cardImage = {
+    width: "97%",
+    height: 250,
+  };
+
   return (
     <>
-      <div className="homescreen" style={{ marginTop: "-20px" }}>
+      <div className="homescreen">
+        <div id="logo">text</div>
         <div id="myCarousel" className="carousel slide" data-ride="carousel">
           {/* Indicators */}
           <ol className="carousel-indicators">
@@ -19,12 +27,15 @@ function Home() {
                         <li data-target="#myCarousel" data-slide-to={2} /> */}
           </ol>
           {/* Wrapper for slides */}
-          <div className="carousel-inner">
+          <div className="carousel-inner" id="inner">
             <div className="item active">
               <img
-                src={ImageBar3}
+                src={ImageBar5}
                 alt="Los Angeles"
-                style={{ width: "100%" }}
+                style={{
+                  width: "100%",
+                  backgroundSize: "cover",
+                }}
               />
               {/*<div className="carousel-caption">*/}
               {/*    <h3>Los Angeles</h3>*/}
@@ -32,14 +43,30 @@ function Home() {
               {/*</div>*/}
             </div>
             <div className="item">
-              <img src={ImageBar4} alt="Chicago" style={{ width: "100%" }} />
+              <img
+                src={ImageBar5}
+                alt="Chicago"
+                style={{
+                  width: "100%",
+                  backgroundSize: "cover",
+                  
+                }}
+              />
               {/*<div className="carousel-caption">*/}
               {/*    <h3>Chicago</h3>*/}
               {/*    <p>Thank you, Chicago!</p>*/}
               {/*</div>*/}
             </div>
             <div className="item">
-              <img src={ImageBar5} alt="New York" style={{ width: "100%" }} />
+              <img
+                src={ImageBar5}
+                alt="New York"
+                style={{
+                  width: "100%",
+                  backgroundSize: "cover",
+                
+                }}
+              />
               {/*<div className="carousel-caption">*/}
               {/*    <h3>New York</h3>*/}
               {/*    <p>We love the Big Apple!</p>*/}
@@ -67,24 +94,10 @@ function Home() {
       </div>
 
       {/* About Us */}
-      <div className="card mb-3" style={{ maxWidth: "100%" }}>
+      <div className="card mb-3 " style={{ maxWidth: "100%" }}>
         <div className="row no-gutters">
-          <div className="col-md-4">
-            <svg
-              className="bd-placeholder-img"
-              width="100%"
-              height={250}
-              xmlns="http://www.w3.org/2000/svg"
-              aria-label="Placeholder: Image"
-              preserveAspectRatio="xMidYMid slice"
-              role="img"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#868e96" />
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                Image
-              </text>
-            </svg>
+          <div className="col-md-4 mobile">
+            <img src={AboutImage} style={cardImage} className="image" />
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -103,9 +116,11 @@ function Home() {
                   Feel the life, come and travel with us.
                 </b>
               </p>
-              <p className="card-text">
-                <button className="btn btn-primary">Find More About</button>
-              </p>
+              <Link to="/about">
+                <p className="card-text">
+                  <button className="btn btn-primary">Find More About</button>
+                </p>
+              </Link>
             </div>
           </div>
         </div>
@@ -130,32 +145,20 @@ function Home() {
                   more.. The choice is yours.
                 </b>
               </p>
-              <p className="card-text">
-                <small className="text-muted">
-                  <button className="btn btn-primary">
-                    Find More Destinations
-                  </button>
-                </small>
-              </p>
+              <Link to="/destinations">
+                <p className="card-text">
+                  <small className="text-muted">
+                    <button className="btn btn-primary">
+                      Find More Destinations
+                    </button>
+                  </small>
+                </p>
+              </Link>
             </div>
           </div>
 
-          <div className="col-md-4">
-            <svg
-              className="bd-placeholder-img"
-              width="97%"
-              height={250}
-              xmlns="http://www.w3.org/2000/svg"
-              aria-label="Placeholder: Image"
-              preserveAspectRatio="xMidYMid slice"
-              role="img"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#868e96" />
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                Image
-              </text>
-            </svg>
+          <div className="col-md-4 mobile">
+            <img src={DestinationImage} style={cardImage} className="image" />
           </div>
         </div>
       </div>

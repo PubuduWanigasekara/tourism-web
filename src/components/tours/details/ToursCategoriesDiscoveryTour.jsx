@@ -6,7 +6,7 @@ import Test from "../../../images/tours/tours categories/test.jpg";
 function ToursCategoriesDiscoveryTour() {
   return (
     <>
-      <div className="container-sm ">
+      <div className="container-sm " id="mtn">
         <div>
           {/* Header */}
           <div className="headerop">
