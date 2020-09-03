@@ -48,7 +48,7 @@
     background-size: "contain" !important;
     /* width: "100%";
     height: "50vh"; */
-    background-color: red;
+ 
   }
 
   .homescreen{
@@ -62,4 +62,23 @@
   #logo{
     display: none;
   }
+
+  #myCarousel{
+    height:auto;
+    display: block;
+  }
+  
+}
+
+#overlay{
+  background-color: black;
+  width: 100%;
+  height:100vh;
+  position: absolute;
+  z-index: 997;
+  opacity: 0.5;
+}
+
+#hero{
+  height:auto;
 }

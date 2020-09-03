@@ -28,6 +28,7 @@ function Home() {
             }}
           />{" "}
         </div>
+        <div id="overlay"></div>
         <div id="myCarousel" className="carousel slide" data-ride="carousel">
           {/* Indicators */}
           <ol className="carousel-indicators">
