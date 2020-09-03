@@ -8,6 +8,7 @@ import ImageBar4 from "../../images/ImageBar4.jpg";
 import ImageBar5 from "../../images/ImageBar5.jpg";
 import DestinationImage from "../../images/home/Destination.jpg";
 import AboutImage from "../../images/home/About.jpg";
+import MainLogo from "../../images/logo/MainLogo.png";
 
 function Home() {
   const cardImage = {
@@ -18,7 +19,15 @@ function Home() {
   return (
     <>
       <div className="homescreen">
-        <div id="logo">text</div>
+        <div id="logo">
+          <img
+            src={MainLogo}
+            alt="Main Logo"
+            style={{
+              width:400 
+            }}
+          />{" "}
+        </div>
         <div id="myCarousel" className="carousel slide" data-ride="carousel">
           {/* Indicators */}
           <ol className="carousel-indicators">

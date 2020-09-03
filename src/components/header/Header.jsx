@@ -1,62 +1,48 @@
-import React from "react";
+import React,{useState , useEffect} from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
+
+  let [mobileMenu , SetMenu] = useState(false);
+
+
+  useEffect(()=>{
+
+    window.onresize =()=>{
+      const width = window.innerWidth;
+
+      if(width < 995){
+       SetMenu(mobileMenu = true);
+      }
+      else{
+        SetMenu(mobileMenu = false);
+      }
+    }
+
+  })
+
+
   return (
-    <div>
-      
-      <nav class="navbar navbar-expand-lg navbar-light " id="header">
-        <Link class="navbar-brand" to="/home">
-          <b>Chauffeur Prive Sri Lanka</b>
-        </Link>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto navbar-right">
-            <li class="nav-item active">
-              <Link class="nav-link" to="/home">
-                <b>Home </b> <span class="sr-only">(current)</span>
-              </Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/destinations">
-                <b>Destinations </b>
-              </Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/tours">
-                <b>Tours </b>
-              </Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/activities">
-                <b>Activities </b>
-              </Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/about">
-                <b>About </b>
-              </Link>
-            </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/contact">
-                <b>Contact </b>
-              </Link>
-            </li>
-          </ul>
+    <>
+      <div id="nav_container">
+        <div id="logo_text">
+    logo goes here
         </div>
-      </nav>
-    </div>
+
+        <div id="menu">
+         
+           <li>HOME</li>
+           <li>DESTINATIONS</li>
+           <li>ACTIVITIES</li>
+           <li>TOUR</li>
+           <li>ABOUT</li>
+           <li>CONTACT</li>
+           <li>M</li>
+         
+        </div>
+      </div>
+    </>
   );
 }
 

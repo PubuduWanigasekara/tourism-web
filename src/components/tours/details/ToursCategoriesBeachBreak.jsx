@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Test from "../../../images/tours/tours categories/test.jpg";
+import Test from "../../../images/tours/tours categories/beach/5.jpg";
+import Test1 from "../../../images/tours/tours categories/beach/2.jpg";
 
 function ToursCategoriesBeachBreak() {
   return (
@@ -29,8 +30,8 @@ function ToursCategoriesBeachBreak() {
                 <Link to="/tours-categories-beachbreak-shorttrip-01">
                   <div className="containerop">
                     <img
-                      src={Test}
-                      style={{ width: "100%" }}
+                      src={Test1}
+                      style={{ width: "50%" }}
                       className="image"
                     />
                     <div className="top-left">
@@ -52,7 +53,7 @@ function ToursCategoriesBeachBreak() {
                   <div className="containerop">
                     <img
                       src={Test}
-                      style={{ width: "100%" }}
+                      style={{ width: "50%" }}
                       className="image"
                     />
                     <div className="top-left">
