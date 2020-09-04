@@ -30,11 +30,11 @@
   font-size: 16px;
   z-index: 999;
   color: #fff;
+  padding-top: 2%;
 }
 
 #logo_text {
-  margin-top: 20px;
-  margin-left: 40px;
+  padding-left: 3%;
 }
 
 #menu {

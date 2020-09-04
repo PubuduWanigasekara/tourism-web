@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: rgb(203, 209, 209);
+}
+
+.card {
+  border: 0px solid rgba(0, 0, 0, 0.125);
+}

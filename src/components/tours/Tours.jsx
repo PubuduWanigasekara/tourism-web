@@ -2,6 +2,7 @@ import React from "react";
 import "./Tours.css";
 import { Link } from "react-router-dom";
 
+import Header from "../header/Header";
 import BeachBreak from "../../images/tours/Beach break .jpg";
 import RoyaleSeylon from "../../images/tours/Royale seylon.jpg";
 import ShortTrips from "../../images/tours/Short trips.jpg";
@@ -11,6 +12,7 @@ import ExclusiveTour from "../../images/tours/Exclusive tour.jpg";
 function Tours() {
   return (
     <>
+      <Header />
       <div className="container-sm " id="mtn">
         <div>
           {/* Header */}

@@ -2,6 +2,7 @@ import React from "react";
 import "./Destinations.css";
 import { Link } from "react-router-dom";
 
+import Header from "../header/Header";
 import Ampara from "../../images/destinations/ampara.jpg";
 import Anuradhapura from "../../images/destinations/anuradapuraya.jpg";
 import Bandarawela from "../../images/destinations/bandarawela.jpg";
@@ -38,10 +39,11 @@ function Destinations() {
 
   return (
     <>
-      <div className="container-sm" style={containerStyle} id="mtn">
+    <Header/>
+      <div className="container-sm" >
         <div>
           {/* Header */}
-          <div className="header" style={{marginTop:"9vh"}}>
+          <div className="header" >
             <h1>
               <b>Destinations</b>
             </h1>

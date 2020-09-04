@@ -18,14 +18,14 @@ function Home() {
 
   return (
     <>
-      <Header />
+    <Header/>
       <div className="homescreen">
         <div id="logo">
           <img
             src={MainLogo}
             alt="Main Logo"
             style={{
-              width: 400,
+              width:400 
             }}
           />{" "}
         </div>
@@ -173,6 +173,7 @@ function Home() {
       </div>
 
       {/* <Footer /> */}
+     
     </>
   );
 }
