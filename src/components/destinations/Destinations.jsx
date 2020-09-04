@@ -40,7 +40,7 @@ function Destinations() {
   return (
     <>
     <Header/>
-      <div className="container-sm" >
+      <div style={{paddingTop:"30px"}}>
         <div>
           {/* Header */}
           <div className="header" >
