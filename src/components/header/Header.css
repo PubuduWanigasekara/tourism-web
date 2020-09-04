@@ -2,6 +2,10 @@
   position: absolute;
 }
 
+.NavItems{
+  color: #fff !important;
+}
+
 .navbar-right {
   margin-right: 5vw;
 }
@@ -30,6 +34,7 @@
 }
 
 #logo_text{
+  margin-top: 40px;
 margin-left:40px
 }
 

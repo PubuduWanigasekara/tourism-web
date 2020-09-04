@@ -41,14 +41,9 @@
 }
 
 @media only screen and (max-width: 700px) {
-  /* body {
-    background-color: red;
-  } */
+  
   #innerImg {
     background-size: "contain" !important;
-    /* width: "100%";
-    height: "50vh"; */
- 
   }
 
   .homescreen{
@@ -56,10 +51,6 @@
   }
 
   .mobile {
-    display: none;
-  }
-
-  #logo{
     display: none;
   }
 
@@ -81,4 +72,11 @@
 
 #hero{
   height:auto;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  #logo{
+    display: none;
+  }
 }

@@ -8,10 +8,14 @@ function Activities() {
     // marginRight: "0px",
   };
 
+  // const cardMain = {
+  //   marginRight: "100px",
+  // }
+
   return (
     <div className="container-md" id="mtn">
       <div className="card mb-3">
-        <h5 className="card-title">
+        <h5 className="cardMain">
           <h1>
             <b>Activities</b>
           </h1>

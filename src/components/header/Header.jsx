@@ -9,15 +9,10 @@ export default function Header() {
   let [mobileMenu , SetMenu] = useState(false);
   let [showm , Setshow] = useState(false);
 
-
   const  show = ()=>{
     Setshow(showm = !showm);
     
   }
-
-  
-
-  
 
   useEffect(()=>{
 
@@ -30,8 +25,6 @@ export default function Header() {
        SetMenu(mobileMenu = false);
      }
 
-    
-
     window.onresize =()=>{
       
       const width = window.innerWidth;
@@ -42,9 +35,6 @@ export default function Header() {
         SetMenu(mobileMenu = false);
       }
     }
-
-    
-
   })
 
 
@@ -58,12 +48,12 @@ export default function Header() {
         <div id="menu">
          { !mobileMenu &&
          <>
-           <li>HOME</li>
-           <li>DESTINATIONS</li>
-           <li>ACTIVITIES</li>
-           <li>TOUR</li>
-           <li>ABOUT</li>
-           <li>CONTACT</li>
+           <li><Link className="NavItems" to="/home">Home</Link></li>
+           <li><Link className="NavItems" to="/destinations">Destinations</Link></li>
+           <li><Link className="NavItems" to="/tours">Tour</Link></li>
+           <li><Link className="NavItems" to="/activities">Activities</Link></li>
+           <li><Link className="NavItems" >About</Link></li>
+           <li><Link className="NavItems" >Contact</Link></li>
            </>
          }
 
