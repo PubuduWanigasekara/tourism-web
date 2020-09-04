@@ -2,7 +2,7 @@
   position: absolute;
 }
 
-.NavItems{
+.NavItems {
   color: #fff !important;
 }
 
@@ -18,79 +18,75 @@
   width: 100% !important;
 }
 
-
-#nav_container{
+#nav_container {
   position: absolute;
-  display:flex;
-  width:100%;
-  height:80px;
-  background:none;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background: none;
   background-color: rgba(255, 255, 255, 0);
   align-items: center;
   justify-content: space-between;
-  font-size:16px;
+  font-size: 16px;
   z-index: 999;
-  color:#fff;
+  color: #fff;
 }
 
-#logo_text{
-  margin-top: 40px;
-margin-left:40px
+#logo_text {
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
-#menu{
-margin-right:40px;
-display:flex;
-align-items: center;
+#menu {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
 }
 
-#menu  li{
-  list-style:none;
-  padding:0px 0px 0px 10px;
-  font-weight:400;
+#menu li {
+  list-style: none;
+  padding: 0px 0px 0px 10px;
+  font-weight: 400;
   cursor: pointer;
 }
 
-#mob_button{
+#mob_button {
   border-radius: 50%;
   background-color: #fff;
-  width:40px;
-  height:40px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-#mob_menu{
-  width:calc(100% / 2);
+#mob_menu {
+  width: calc(100% / 2);
   position: absolute;
   z-index: 9999;
   background-color: #fff;
-  height:100vh;
+  height: 100vh;
   transition: 1s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
-#mob_menu li{
+#mob_menu li {
   list-style: none;
   font-size: 18px;
-  padding:10px;
+  padding: 10px;
   margin-top: 20px;
-  transition:0.4s ease; 
+  transition: 0.4s ease;
   cursor: pointer;
-  
 }
 
-#mob_menu li:hover{
- transform: scale(1.2); 
- transition:0.4s ease; 
+#mob_menu li:hover {
+  transform: scale(1.2);
+  transition: 0.4s ease;
 }
 
-#menu_icon{
-  width:20px;
+#menu_icon {
+  width: 20px;
 }

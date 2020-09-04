@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
 import ImageBar3 from "../../images/ImageBar3.jpg";
 import ImageBar4 from "../../images/ImageBar4.jpg";
 import ImageBar5 from "../../images/ImageBar5.jpg";
@@ -16,13 +18,14 @@ function Home() {
 
   return (
     <>
+      <Header />
       <div className="homescreen">
         <div id="logo">
           <img
             src={MainLogo}
             alt="Main Logo"
             style={{
-              width:400 
+              width: 400,
             }}
           />{" "}
         </div>
@@ -170,7 +173,6 @@ function Home() {
       </div>
 
       {/* <Footer /> */}
-      {/* <Header /> */}
     </>
   );
 }

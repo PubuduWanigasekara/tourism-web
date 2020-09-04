@@ -67,7 +67,7 @@ function App() {
     <Router>
       <div>
         <BrowserRouter>
-          <Header />
+          
           <Switch>
             <Route path="/home">
               <Home />
