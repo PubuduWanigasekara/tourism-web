@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Header from "../../header/Header";
 import Test from "../../../images/tours/tours categories/test.jpg";
 
 function ToursCategoriesShortTrips() {
   return (
     <>
+    <Header/>
       <div className="container-sm " id="mtn">
         <div>
           {/* Header */}
@@ -15,9 +16,9 @@ function ToursCategoriesShortTrips() {
             </h3>
             <p>
               Select Your Choice! {"  "}
-              <Link to="/tours">
+              {/* <Link to="/tours">
                 <button className="btn btn-sm btn-secondary">Back</button>
-              </Link>
+              </Link> */}
             </p>
           </div>
           {/* Photo Grid */}

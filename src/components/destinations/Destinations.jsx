@@ -50,6 +50,7 @@ function Destinations() {
             <p>Click the destination for more information.</p>
           </div>
           {/* Photo Grid */}
+          
           <div className="row" style={{ marginBottom: "10px" }}>
             <div className="column">
               {/* 1 */}

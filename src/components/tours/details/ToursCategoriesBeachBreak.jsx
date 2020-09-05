@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Header from "../../header/Header";
 import Test from "../../../images/tours/tours categories/beach/5.jpg";
 import Test1 from "../../../images/tours/tours categories/beach/2.jpg";
 
 function ToursCategoriesBeachBreak() {
   return (
     <>
-      <div className="container-sm " id="mtn">
+    <Header/>
+      <div className="container-sm " style={{paddingTop:"100px"}}>
         <div>
           {/* Header */}
           <div className="headerop">
@@ -16,9 +17,9 @@ function ToursCategoriesBeachBreak() {
             </h3>
             <p>
               Select Your Choice! {"  "}
-              <Link to="/tours">
+              {/* <Link to="/tours">
                 <button className="btn btn-sm btn-secondary">Back</button>
-              </Link>
+              </Link> */}
             </p>
           </div>
           {/* Photo Grid */}
@@ -59,7 +60,7 @@ function ToursCategoriesBeachBreak() {
                     <div className="top-left">
                       <div className="btn btn-lg btn-dark">
                         <h6>
-                          <b>Beach break 02</b>
+                          <b>Beach Break 02</b>
                         </h6>
                       </div>
                     </div>
