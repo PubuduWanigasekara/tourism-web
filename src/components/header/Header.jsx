@@ -68,12 +68,12 @@ export default function Header() {
 
 { showm &&
       <div id="mob_menu">
-      <li>HOME</li>
-           <li>DESTINATIONS</li>
-           <li>ACTIVITIES</li>
-           <li>TOUR</li>
-           <li>ABOUT</li>
-           <li>CONTACT</li>
+        <li><Link to="/home">Home</Link></li>
+        <li><Link to="/destinations">Destinations</Link></li>
+        <li><Link to="/tours">Tour</Link></li>
+        <li><Link to="/activities">Activities</Link></li>
+        <li><Link >About</Link></li>
+        <li><Link >Contact</Link></li>
       </div>}
     </>
   );
