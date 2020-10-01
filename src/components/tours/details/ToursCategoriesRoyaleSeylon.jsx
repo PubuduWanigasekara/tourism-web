@@ -4,17 +4,13 @@ import AmparaI from "../../../images/tours/tours categories/details/ampara.jpg";
 import Header from "../../header/Header";
 
 function ToursCategoriesRoyaleSeylon() {
-  const containerStyle = {
-    marginLeft: "0px",
-    // marginRight: "0px",
-  };
 
   return (
     <>
-      <Header />
-      <div className="container-md" id="mtn">
+      <Header/>
+      <div className="container-md">
         <div className="card mb-3">
-          <h5 className="card-title">
+          <h5 className="card-title" id="mtn">
             <h1>
               <b>
                 Kingdoms, Hill Stations, Beaches & Wildlife -25 Days 24 Nights

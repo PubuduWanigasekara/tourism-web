@@ -10,20 +10,26 @@ import DiscoveryTour from "../../images/tours/Discovery tour.jpg";
 import ExclusiveTour from "../../images/tours/Exclusive tour.jpg";
 
 function Tours() {
+  const containerStyle = {
+    marginLeft: "20px",
+    marginRight: "20px",
+    marginTop: "-50px",
+  };
+
   return (
     <>
       <Header />
-      <div className="container-sm " id="mtn">
+      <div style={{paddingTop:"30px"}}>
         <div>
           {/* Header */}
-          <div className="headerop">
-            <h3>
+          <div className="header">
+            <h1>
               <b>Tours</b>
-            </h3>
+            </h1>
             <p>Select Your Choice!</p>
           </div>
           {/* Photo Grid */}
-          <div className="container-xl" style={{ marginTop: "70px" }}>
+          <div className="container-xl" style={{ marginTop: "0px" }}>
             {" "}
             <div className="rowop" style={{ marginBottom: "10px" }}>
               <div className="columnop ">

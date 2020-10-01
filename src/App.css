@@ -14,6 +14,11 @@ body {
   text-decoration: none !important;
 }
 
+
+.card{
+  background-color: rgb(203, 209, 209);
+}
+
 #mtn {
   margin-top: 88px;
 }
